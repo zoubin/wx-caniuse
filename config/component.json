@@ -1,0 +1,194 @@
+{
+  "native-component": {
+    "version": "0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/native-component.html"
+  },
+  "aria-component": {
+    "version": "0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/aria-component.html"
+  },
+  "scroll-view": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/scroll-view.html"
+  },
+  "swiper": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/swiper.html"
+  },
+  "swiper-item": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/swiper-item.html"
+  },
+  "view": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/view.html"
+  },
+  "icon": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/icon.html"
+  },
+  "progress": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/progress.html"
+  },
+  "text": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/text.html"
+  },
+  "button": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/button.html"
+  },
+  "checkbox": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/checkbox.html"
+  },
+  "checkbox-group": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/checkbox-group.html"
+  },
+  "form": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/form.html"
+  },
+  "input": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/input.html"
+  },
+  "label": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/label.html"
+  },
+  "picker": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/picker.html"
+  },
+  "picker-view": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/picker-view.html"
+  },
+  "picker-view-column": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/picker-view-column.html"
+  },
+  "radio": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/radio.html"
+  },
+  "radio-group": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/radio-group.html"
+  },
+  "slider": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/slider.html"
+  },
+  "switch": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/switch.html"
+  },
+  "textarea": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/textarea.html"
+  },
+  "navigator": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html"
+  },
+  "audio": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/audio.html"
+  },
+  "image": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/image.html"
+  },
+  "video": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/video.html"
+  },
+  "map": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/map.html"
+  },
+  "canvas": {
+    "version": "1.0.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/canvas.html"
+  },
+  "movable-area": {
+    "version": "1.2.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/movable-area.html"
+  },
+  "movable-view": {
+    "version": "1.2.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/movable-view.html"
+  },
+  "cover-image": {
+    "version": "1.4.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/cover-image.html"
+  },
+  "cover-view": {
+    "version": "1.4.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/cover-view.html"
+  },
+  "rich-text": {
+    "version": "1.4.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/rich-text.html"
+  },
+  "open-data": {
+    "version": "1.4.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html"
+  },
+  "camera": {
+    "version": "1.6.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/camera.html"
+  },
+  "web-view": {
+    "version": "1.6.4",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html"
+  },
+  "live-player": {
+    "version": "1.7.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/live-player.html"
+  },
+  "live-pusher": {
+    "version": "1.7.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/live-pusher.html"
+  },
+  "ad": {
+    "version": "1.9.94",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/ad.html"
+  },
+  "functional-page-navigator": {
+    "version": "2.1.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/functional-page-navigator.html"
+  },
+  "ad-custom": {
+    "version": "2.10.4",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/ad-custom.html"
+  },
+  "voip-room": {
+    "version": "2.11.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/voip-room.html"
+  },
+  "match-media": {
+    "version": "2.11.1",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/match-media.html"
+  },
+  "official-account": {
+    "version": "2.3.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/official-account.html"
+  },
+  "editor": {
+    "version": "2.7.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/editor.html"
+  },
+  "navigation-bar": {
+    "version": "2.9.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/navigation-bar.html"
+  },
+  "page-meta": {
+    "version": "2.9.0",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/page-meta.html"
+  }
+}

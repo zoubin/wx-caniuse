@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "commander": "^6.2.1",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "tap": "^14.11.0"
+  },
+  "name": "wx-caniuse",
+  "version": "1.0.3",
+  "description": "check if api and component are available in given version of mp",
+  "main": "index.js",
+  "bin": {
+    "wx-caniuse": "bin/wx-caniuse.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/*.js",
+    "cov": "npm test -- --coverage-report=lcov"
+  },
+  "keywords": [
+    "miniprogram",
+    "compatibility"
+  ],
+  "author": "zoubin",
+  "license": "ISC"
+}

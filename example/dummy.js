@@ -1,0 +1,1 @@
+wx.getStorage() && wx.setStorage()
