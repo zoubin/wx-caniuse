@@ -2,6 +2,8 @@
 
 const program = require('commander')
 
+program.version(require('../package.json').version)
+
 program
   .command('info <name>')
   .description('view information about given api or component')
