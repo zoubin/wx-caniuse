@@ -26,7 +26,12 @@ function handleArgs(options) {
   }
   let typeRoots = options.typeRoots
   if (options.defaultTypes) {
-    typeRoots = typeRoots.concat(path.resolve(__dirname, '../lib/api-typings'))
+    typeRoots = typeRoots.map(f => path.resolve(f))
+    typeRoots.push(path.resolve(__dirname, '../lib/api-typings'))
+    const typesPath = path.resolve('node_modules/@types')
+    if (typeRoots.indexOf(typesPath) === -1) {
+      typeRoots.push(typesPath)
+    }
   }
   args.push('--typeRoots', typeRoots.join(','))
   args.push('--noEmit')
