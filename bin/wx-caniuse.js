@@ -29,8 +29,11 @@ program
   .option('--target <esnext|es6>', 'tsc --target', 'esnext')
   .option('--no-allow-js')
   .option('--no-check-js')
-  .option('-e, --entries-config <path>', 'entries specified in a file')
   .option('--type-roots <dirs...>', 'tsc --typeRoots', [])
+  .option('-e, --entry-config <path>', 'entries specified in a file')
+  .option('-c, --code-config <path>', 'whitelist/blacklist for errors to print')
+  .option('-i, --ignore-code <number...>', 'ignore errors with given codes', [])
+  .option('-o, --only-code <number...>', 'print only errors with given codes', [])
   .action(require('./tsc'))
 
 program.parse(process.argv)

@@ -3,15 +3,17 @@ const path = require('path')
 const readline = require('readline')
 const fs = require('fs')
 
+function readlines(file) {
+  return fs.readFileSync(file, 'utf8').split(/\n+/).map(s => s.trim()).filter(Boolean)
+}
+
 function handleArgs(options) {
   const args = []
-  if (options.entriesConfig) {
-    const confPath = path.resolve(process.cwd(), options.entriesConfig)
-    const contents = fs.readFileSync(confPath, 'utf8')
+  if (options.entryConfig) {
+    const confPath = path.resolve(options.entryConfig)
     const confDir = path.dirname(confPath)
     args.push(
-      ...contents.split(/\n+/).map(s => s.trim()).filter(Boolean)
-      .map(f => path.resolve(confDir, f))
+      ...readlines(confPath).map(f => path.resolve(confDir, f))
     )
   }
   args.push('--module', options.module)
@@ -32,20 +34,50 @@ function handleArgs(options) {
   return args
 }
 
+function createCodeFilter({ ignoreCode, onlyCode, codeConfig }) {
+  const matchCode = line => {
+    let matches = line.match(/ TS(\d{4}):/)
+    return matches && matches[1]
+  }
+
+  const whitelist = [...onlyCode]
+  const blacklist = [...ignoreCode]
+  if (codeConfig) {
+    readlines(codeConfig).forEach(s => {
+      if (s[0] === '!') {
+        blacklist.push(s.slice(1))
+      } else {
+        whitelist.push(s)
+      }
+    })
+  }
+
+  return line => {
+    let code = matchCode(line)
+    if (whitelist.length && whitelist.indexOf(code) === -1) return false
+    if (blacklist.length && blacklist.indexOf(code) > -1) return false
+    return true
+  }
+}
+
 module.exports = function (options) {
   const args = handleArgs(options)
   const tsc = spawn(path.resolve(__dirname, '../node_modules/typescript/bin/tsc'), args)
   const rl = readline.createInterface({
     input: tsc.stdout,
-    output: process.stdout
+    // output: process.stdout
   })
   let lines = 0
+  const codeFilter = createCodeFilter(options)
   rl.on('line', line => {
-    lines++
+    if (codeFilter(line)) {
+      lines++
+      console.log(lines, line)
+    }
   })
   rl.on('close', () => {
     if (lines) {
-      console.log(`Found ${lines} failures`)
+      process.exit(1)
     }
   })
 }
