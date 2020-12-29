@@ -1,3 +1,3 @@
 wx.set({})
-wx.getStorage()
+wx.getStorage({ ke: '123' })
 
