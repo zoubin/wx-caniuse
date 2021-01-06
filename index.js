@@ -1,15 +1,11 @@
 const compare = require('./lib/compare')
 
-module.exports = config => version => type => name => {
-  let res = 0
-  if (name in config[type]) {
-    let o = config[type][name]
-    let v = ['string', 'number'].indexOf(typeof o) > -1 ? o : o.version
-    res = compare(version, v) >= 0 ? 1 : -1
-  }
+module.exports = function (conf) {
+  conf = conf || require('./lib/api.json')
   return {
-    ok: res === 1,
-    notOk: res === -1,
-    unknown: res === 0
+    getVersion: api => conf[api] && conf[api].version,
+    createCanIUseInterface: ver => api => conf[api] && compare(conf[api].version, ver) <= 0,
+    whitelist: ver => Object.keys(conf).filter(api => compare(conf[api].version, ver) <= 0),
+    blacklist: ver => Object.keys(conf).filter(api => compare(conf[api].version, ver) > 0),
   }
 }

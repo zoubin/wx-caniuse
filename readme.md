@@ -1,5 +1,5 @@
 # wx-caniuse
-检查仓库中是否使用了指定基础库版本不支持的API
+兼容低版本基础库的小工具。
 
 ## Install
 
@@ -8,42 +8,34 @@ npm i -g wx-caniuse
 wx-caniuse -h
 
 ```
-## (TSC) TypeScript
-### How to disable JSDoc type checking
-To disable JSDoc type checking, just make `ts.getJSDocCommentRanges()` always return an empty array.
 
-```js
-function createNodeWithJSDoc(kind, pos) {
-    var node = createNode(kind, pos);
-    if (scanner.getTokenFlags() & 2 /* PrecedingJSDocComment */ && (kind !== 226 /* ExpressionStatement */ || token() !== 20 /* OpenParenToken */)) {
-        addJSDocComment(node);
-    }
-    return node;
-}
-function addJSDocComment(node) {
-    ts.Debug.assert(!node.jsDoc); // Should only be called once per node
-    var jsDoc = ts.mapDefined(ts.getJSDocCommentRanges(node, sourceFile.text), function (comment) { return JSDocParser.parseJSDocComment(node, comment.pos, comment.end - comment.pos); });
-    if (jsDoc.length)
-        node.jsDoc = jsDoc;
-    return node;
-}
+## Usage
 
-// hook this
-function getJSDocCommentRanges(node, text) {
-    var commentRanges = (node.kind === 156 /* Parameter */ ||
-        node.kind === 155 /* TypeParameter */ ||
-        node.kind === 201 /* FunctionExpression */ ||
-        node.kind === 202 /* ArrowFunction */ ||
-        node.kind === 200 /* ParenthesizedExpression */) ?
-        ts.concatenate(ts.getTrailingCommentRanges(text, node.pos), ts.getLeadingCommentRanges(text, node.pos)) :
-        ts.getLeadingCommentRanges(text, node.pos);
-    // True if the comment starts with '/**' but not if it is '/**/'
-    return ts.filter(commentRanges, function (comment) {
-        return text.charCodeAt(comment.pos + 1) === 42 /* asterisk */ &&
-            text.charCodeAt(comment.pos + 2) === 42 /* asterisk */ &&
-            text.charCodeAt(comment.pos + 3) !== 47 /* slash */;
-    });
-}
-ts.getJSDocCommentRanges = getJSDocCommentRanges;
+### 查看指定API的详细信息
+```bash
+wx-caniuse view console.log
 
 ```
+
+### 检查在指定版本下是否可使用某些API
+```bash
+wx-caniuse check -t 2.0.0 console.log
+
+```
+
+命令行版[wx.canIUse](https://developers.weixin.qq.com/miniprogram/dev/api/base/wx.canIUse.html)
+
+### 列出指定版本下可用的所有API
+```bash
+wx-caniuse list 2.0.0
+
+```
+
+### 静态检查
+使用TS进行静态检查
+
+```bash
+wx-caniuse tsc src/pages/home/index
+
+```
+

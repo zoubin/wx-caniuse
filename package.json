@@ -13,6 +13,9 @@
   "bin": {
     "wx-caniuse": "bin/wx-caniuse.js"
   },
+  "wx-caniuse": {
+    "mp-version": "2.14.1"
+  },
   "directories": {
     "lib": "lib",
     "test": "test"

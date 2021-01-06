@@ -1988,11 +1988,11 @@
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/background/wx.setBackgroundTextStyle.html"
   },
   "wx.setNavigationBarTitle": {
-    "version": "2.1.0",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.setNavigationBarTitle.html"
   },
   "wx.showNavigationBarLoading": {
-    "version": "2.1.0",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.showNavigationBarLoading.html"
   },
   "wx.getLaunchOptionsSync": {
@@ -2036,7 +2036,7 @@
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/camera/CameraContext.setZoom.html"
   },
   "FileSystemManager.readFileSync": {
-    "version": "2.10.0",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.readFileSync.html"
   },
   "LivePusherContext.setMICVolume": {
@@ -2620,7 +2620,7 @@
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.removeCustomLayer.html"
   },
   "WifiInfo": {
-    "version": "2.12.0",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/WifiInfo.html"
   },
   "wx.disableAlertBeforeUnload": {
@@ -2728,11 +2728,11 @@
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/account-info/wx.getAccountInfoSync.html"
   },
   "wx.navigateTo": {
-    "version": "2.2.2",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.navigateTo.html"
   },
   "wx.redirectTo": {
-    "version": "2.2.2",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.redirectTo.html"
   },
   "wx.nextTick": {
@@ -2740,15 +2740,15 @@
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html"
   },
   "FileSystemManager.mkdirSync": {
-    "version": "2.3.0",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.mkdirSync.html"
   },
   "FileSystemManager.rmdirSync": {
-    "version": "2.3.0",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.rmdirSync.html"
   },
   "FileSystemManager.statSync": {
-    "version": "2.3.0",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.statSync.html"
   },
   "RecorderManager.onInterruptionBegin": {
@@ -2800,15 +2800,15 @@
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/gyroscope/wx.stopGyroscope.html"
   },
   "wx.getUserInfo": {
-    "version": "2.3.1",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/user-info/wx.getUserInfo.html"
   },
   "wx.login": {
-    "version": "2.3.1",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html"
   },
   "wx.switchTab": {
-    "version": "2.3.1",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.switchTab.html"
   },
   "LivePusherContext.pauseBGM": {
@@ -3212,7 +3212,7 @@
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-processing/MediaTrack.html"
   },
   "UDPSocket.bind": {
-    "version": "2.9.0",
+    "version": "0",
     "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/udp/UDPSocket.bind.html"
   },
   "wx.createMediaContainer": {
