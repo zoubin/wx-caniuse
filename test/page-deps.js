@@ -25,8 +25,8 @@ test('resolvePage', t => {
   function run(page, entry, { resolved, failed }, readPageConf) {
     resolvePage(
       page, entry,
-      { projectRoot, resolved, failed },
-      { readPageConf }
+      { projectRoot },
+      { readPageConf, resolved, failed }
     )
   }
 
@@ -78,8 +78,8 @@ test('pageDeps', t => {
   function run(pages, { resolved, failed }, readPageConf) {
     return pageDeps(
       pages,
-      { projectRoot, resolved, failed },
-      { readPageConf }
+      { projectRoot },
+      { readPageConf, resolved, failed }
     )
   }
 
