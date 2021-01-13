@@ -4,7 +4,7 @@ const readline = require('readline')
 const fs = require('fs')
 
 const compose = require('../lib/compose')
-const ddf = require('../lib/defaultDiagnosticFilter')
+const ddf = require('../lib/default-diagnostic-filter')
 
 function readlines(file) {
   return fs.readFileSync(file, 'utf8').split(/\n+/).map(s => s.trim()).filter(Boolean)
