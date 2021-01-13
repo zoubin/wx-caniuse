@@ -91,7 +91,7 @@ function parseCommandline(options) {
     diagnosticFilter.push(createBlacklistFilter(options.ignore.map(n => +n)))
   }
   if (options.defaultDiagnosticFilter) {
-    diagnosticFilter.push(require('../lib/defaultDiagnosticFilter'))
+    diagnosticFilter.push(require('../lib/default-diagnostic-filter'))
   }
 
   const pages = []

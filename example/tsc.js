@@ -3,7 +3,7 @@ const path = require('path')
 const readline = require('readline')
 const fs = require('fs')
 
-const composeFilter = require('../lib/composeFilter')
+const compose = require('../lib/compose')
 const ddf = require('../lib/defaultDiagnosticFilter')
 
 function readlines(file) {
@@ -67,7 +67,7 @@ function createDiagnosticsFilter({ ignore, only, diagnosticFilter, defaultDiagno
   if (defaultDiagnosticFilter) {
     //filters.push(ddf)
   }
-  return composeFilter(filters)
+  return compose(filters)
 }
 
 module.exports = function (options) {
