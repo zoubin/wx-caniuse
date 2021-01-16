@@ -7,7 +7,7 @@
     "tap": "^14.11.0"
   },
   "name": "wx-caniuse",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "check if api and component are available in given version of mp",
   "main": "index.js",
   "bin": {
