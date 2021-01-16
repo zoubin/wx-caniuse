@@ -1,3 +1,3 @@
+const request = require('@api/request')
 wx.set({})
-wx.getStorage({ ke: '123' })
 

@@ -1,7 +1,7 @@
 const path = require('path')
 const fs = require('fs')
 const tsc = require('../lib/tsc')
-const { pageDeps } = require('../lib/page-deps')
+const pageDeps = require('../lib/page-deps')
 
 function createWhitelistFilter(whitelist) {
   return ({ code }, next) => {
@@ -29,8 +29,7 @@ function readConfigFile(file) {
   const confDir = path.dirname(confPath)
   const config = require(path.resolve(file))
 
-  const projectRoot = config.projectRoot = config.projectRoot || confDir
-  const resolve = e => path.resolve(projectRoot, e)
+  const resolve = e => path.resolve(confDir, e)
   if (config.entries) {
     config.entries = config.entries.map(resolve)
   }
@@ -103,14 +102,12 @@ function parseCommandline(options) {
     return true
   })
   if (pages.length) {
-    const resolved = {}
-    const failed = []
-    pageDeps(pages, { projectRoot, resolved, failed })
-    if (failed.length) {
-      console.error(`Failed to resolve pages: ${failed}`)
-      process.exit(1)
-    }
-    const services = Object.keys(resolved).map(e => resolvePageJs(e, extensions))
+    const resolved = pageDeps(pages, {
+      baseUrl: compilerOptions.baseUrl,
+      paths: compilerOptions.paths,
+      projectRoot,
+    })
+    const services = resolved.map(e => resolvePageJs(e, extensions))
     entries.push(...services)
   }
 

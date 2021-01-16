@@ -1,108 +1,139 @@
-const { test } = require('tap')
+const { test, only } = require('tap')
+const path = require('path')
 
-const {
-  pageDeps,
-  resolvePath,
-  resolvePage
-} = require('../lib/page-deps')
+const pageDeps = require('../lib/page-deps')
+const { Resolver } = pageDeps
 
-test('resolvePath', t => {
-  let component = '/components/foo/index'
-  let page = '/path/to/project/src/pages/awesome/index'
-  let projectRoot = '/path/to/project/src'
-  t.equal(resolvePath(component, page, projectRoot), '/path/to/project/src/components/foo/index', 'start with /')
-  component = './components/bar/index'
-  t.equal(resolvePath(component, page, projectRoot), '/path/to/project/src/pages/awesome/components/bar/index', 'start with ./')
+test('Resolver, resolvePath', t => {
+  let baseUrl = '/path/to/project/src'
+  let from = '/path/to/project/src/pages/awesome/index'
+
+  const resolver = new Resolver({
+    baseUrl,
+    paths: { '@npm/*': ['@npm/*'] }
+  })
+
+  t.equal(
+    resolver.resolvePath('/components/foo/index', from),
+    '/path/to/project/src/components/foo/index',
+    'start with /'
+  )
+
+  t.equal(
+    resolver.resolvePath('./components/bar/index', from),
+    '/path/to/project/src/pages/awesome/components/bar/index',
+    'start with ./'
+  )
+
+  t.equal(
+    resolver.resolvePath('../../components/xyz/index', from),
+    '/path/to/project/src/components/xyz/index',
+    'start with ../'
+  )
+
+  resolver.reset({ pageExists: () => true })
+  t.equal(
+    resolver.resolvePath('@npm/ooz/index', from),
+    '/path/to/project/src/@npm/ooz/index',
+    'alias'
+  )
+
   t.end()
 })
 
-test('resolvePage', t => {
-  let projectRoot = '/path/to/project/src'
+test('Resolver, resolvePage', t => {
+  let baseUrl = '/path/to/project/src'
   let foo = '/path/to/project/src/pages/awesome/components/foo/index'
   let bar = '/path/to/project/src/components/bar/index'
   let page = '/path/to/project/src/pages/awesome/index'
 
-  function run(page, entry, { resolved, failed }, readPageConf) {
-    resolvePage(
-      page, entry,
-      { projectRoot },
-      { readPageConf, resolved, failed }
-    )
-  }
+  const resolver = new Resolver({ baseUrl })
 
-  let resolved = {}
-  let failed = []
-  run(page, page, { resolved, failed }, p => null)
-  t.same(resolved, {}, 'no .json, no resolved')
-  t.same(failed, [page], 'no .json, included in failed')
+  t.same(
+    resolver.reset({ cache: {}, readPageConf: p => ({}) }).resolve(page),
+    {},
+    'no usingComponents, no deps'
+  )
 
-  resolved = {}
-  failed = []
-  run(page, page, { resolved, failed }, p => ({}))
-  t.same(resolved, { [page]: {} }, 'no usingComponents, no deps')
-  t.same(failed, [], 'no usingComponents, no failed')
+  t.same(
+    resolver.reset({
+      cache: {},
+      readPageConf: p => ({ usingComponents: {} })
+    }).resolve(page),
+    {},
+    'usingComponents, no deps'
+  )
 
-  resolved = {}
-  failed = []
-  run(page, page, { resolved, failed }, p => ({ usingComponents: {} }))
-  t.same(resolved, { [page]: {} }, 'usingComponents, no deps')
-  t.same(failed, [], 'usingComponents, no failed')
-
-  resolved = {}
-  failed = []
-  run(page, page, { resolved, failed }, p => {
-    if (p === page) return {
-      usingComponents: { foo: './components/foo/index' }
-    }
-    if (p === foo) return {
-      usingComponents: { bar: '/components/bar/index' }
-    }
-    if (p === bar) return {}
-  })
-  t.same(resolved, {
-    [page]: { [foo]: true, [bar]: true },
-    [foo]: { [bar]: true },
+  t.same(
+    resolver.reset({
+      cache: {},
+      readPageConf: p => {
+        if (p === page) return {
+          usingComponents: { foo: './components/foo/index' }
+        }
+        if (p === foo) return {
+          usingComponents: { bar: '/components/bar/index' }
+        }
+        if (p === bar) return {}
+      }
+    }).resolve(page),
+    { foo },
+    'usingComponents'
+  )
+  t.same(resolver.cache, {
+    [page]: { foo },
+    [foo]: { bar },
     [bar]: {}
-  }, 'usingComponents')
-  t.same(failed, [], 'usingComponents, no failed')
+  }, 'usingComponents, cache')
 
   t.end()
 })
 
 test('pageDeps', t => {
-  let projectRoot = '/path/to/project/src'
-  let foo = '/path/to/project/src/pages/awesome/components/foo/index'
-  let bar = '/path/to/project/src/components/bar/index'
-  let page = '/path/to/project/src/pages/awesome/index'
+  let baseUrl = '/path/to/project/src'
+  const resolve = p => path.resolve(baseUrl, p)
 
-  function run(pages, { resolved, failed }, readPageConf) {
-    return pageDeps(
-      pages,
-      { projectRoot },
-      { readPageConf, resolved, failed }
-    )
+  const foo = resolve('pages/awesome/components/foo/index')
+  const bar = resolve('components/bar/index')
+  const page = resolve('pages/awesome/index')
+  const page1 = resolve('pages/awesome1/index')
+  const page2 = resolve('pages/awesome2/index')
+  const xyz = resolve('npm/xyz/index')
+
+  function run(pages) {
+    return pageDeps(pages, {
+      baseUrl,
+      paths: { 'npm/*': ['npm/*'] }
+    }, resolver => resolver.reset({
+      readPageConf: p => {
+        if (p === page) return {
+          usingComponents: { foo: './components/foo/index' }
+        }
+        if (p === page1) return {
+          usingComponents: { bar: '/components/bar/index' }
+        }
+        if (p === page2) return {
+          usingComponents: { bar: 'npm/xyz/index' }
+        }
+        if (p === foo) return {
+          usingComponents: { bar: '/components/bar/index' }
+        }
+        if (p === bar) return {}
+        if (p === xyz) return {}
+      }
+    }))
   }
-
-  let resolved = {}
-  let failed = []
-  let result = run([page, bar], { resolved, failed }, p => {
-    if (p === page) return {
-      usingComponents: { foo: './components/foo/index' }
-    }
-    if (p === foo) return {
-      usingComponents: { bar: '/components/bar/index' }
-    }
-    if (p === bar) return {}
-  })
-  t.same(result.failed, [], 'no failed')
-  t.same(result.resolved, {
-    'pages/awesome/index': [
-      'pages/awesome/components/foo/index',
-      'components/bar/index'
-    ],
-    'components/bar/index': []
-  })
-
+  t.same(
+    run('./pages/awesome/index').sort(),
+    [ bar, foo, page ],
+    'single input'
+  )
+  t.same(
+    run(['./pages/awesome/index', './pages/awesome1/index']).sort(),
+    [ bar, foo, page, page1 ],
+    'array input with more than 1 element'
+  )
+  t.same(run('./pages/awesome2/index'), [ page2, xyz ], 'with alias')
   t.end()
 })
 

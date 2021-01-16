@@ -1,3 +1,4 @@
+const ts = require('typescript')
 const { spawn } = require('child_process')
 const path = require('path')
 const readline = require('readline')
@@ -5,6 +6,22 @@ const fs = require('fs')
 
 const compose = require('../lib/compose')
 const ddf = require('../lib/default-diagnostic-filter')
+
+const defaultCompilerOptions = {
+  noEmit: true,
+  allowJs: true,
+  jsx: true,
+  checkJs: true,
+  // 微信的声明文件中增加了 require, console, module 等，会与其它的库冲突，所以要跳过
+  // 实际中跳过对声明文件的type checking对结果没有影响
+  skipLibCheck: true,
+  module: ts.ModuleKind.CommonJS,
+  target: ts.ScriptTarget.ESNext,
+  baseUrl: './',
+  paths: {
+    '@awesome/api': [path.join(__dirname, 'api')]
+  }
+}
 
 function readlines(file) {
   return fs.readFileSync(file, 'utf8').split(/\n+/).map(s => s.trim()).filter(Boolean)

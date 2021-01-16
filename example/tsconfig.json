@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "module": "CommonJS",
+    "target": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "./*"]
+    },
+    "typeRoots": ["../lib/types"]
+  },
+  "files": [
+    "./lib/foo.js"
+  ]
+}
