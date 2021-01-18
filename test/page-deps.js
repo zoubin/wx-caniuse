@@ -14,9 +14,33 @@ test('Resolver, resolvePath', t => {
   })
 
   t.equal(
-    resolver.resolvePath('/components/foo/index', from),
+    new Resolver({ baseUrl }).resolvePath('/components/foo/index', from),
     '/path/to/project/src/components/foo/index',
-    'start with /'
+    'start with /, using baseUrl'
+  )
+
+  t.equal(
+    new Resolver({ projectRoot: page => baseUrl }).resolvePath('/components/foo/index', from),
+    '/path/to/project/src/components/foo/index',
+    'start with /, using projectRoot function'
+  )
+
+  t.equal(
+    new Resolver({ projectRoot: 'src' }).resolvePath('/components/foo/index', from),
+    '/path/to/project/src/components/foo/index',
+    'start with /, using relative projectRoot, simple case'
+  )
+
+  t.equal(
+    new Resolver({ projectRoot: 'src' }).resolvePath('/components/foo/index', '/path/to/project/src/subproject/src/awesome/index'),
+    '/path/to/project/src/subproject/src/components/foo/index',
+    'start with /, using relative projectRoot, complex case'
+  )
+
+  t.equal(
+    new Resolver({ projectRoot: baseUrl }).resolvePath('/components/foo/index', from),
+    '/path/to/project/src/components/foo/index',
+    'start with /, using absolute projectRoot'
   )
 
   t.equal(
