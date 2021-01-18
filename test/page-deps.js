@@ -129,6 +129,7 @@ test('pageDeps', t => {
       baseUrl,
       paths: { 'npm/*': ['npm/*'] }
     }, resolver => resolver.reset({
+      pageExists: () => true,
       readPageConf: p => {
         if (p === page) return {
           usingComponents: { foo: './components/foo/index' }

@@ -105,7 +105,7 @@ function parseCommandline(options) {
     const resolved = pageDeps(pages, {
       baseUrl: compilerOptions.baseUrl,
       paths: compilerOptions.paths,
-      projectRoot,
+      projectRoot, extensions
     })
     const services = resolved.map(e => resolvePageJs(e, extensions))
     entries.push(...services)
