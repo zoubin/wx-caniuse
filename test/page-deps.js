@@ -50,6 +50,12 @@ test('Resolver, resolvePath', t => {
   )
 
   t.equal(
+    resolver.resolvePath('components/bar/index', from),
+    '/path/to/project/src/pages/awesome/components/bar/index',
+    'support relative path without "./" '
+  )
+
+  t.equal(
     resolver.resolvePath('../../components/xyz/index', from),
     '/path/to/project/src/components/xyz/index',
     'start with ../'
