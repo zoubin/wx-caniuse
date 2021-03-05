@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# https://stackoverflow.com/questions/3124556/clean-way-to-launch-the-web-browser-from-shell-script
+path=$(which open || which xdg-open || which gnome-open) && exec "$path" $1
+echo "Can't find browser"

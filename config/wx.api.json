@@ -1,0 +1,3452 @@
+{
+  "wx.canIUse": {
+    "api": "wx.canIUse",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/wx.canIUse.html",
+    "text": "基础库 1.1.1 开始支持，低版本需做兼容处理。",
+    "version": "1.1.1"
+  },
+  "wx.base64ToArrayBuffer": {
+    "api": "wx.base64ToArrayBuffer",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/wx.base64ToArrayBuffer.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.arrayBufferToBase64": {
+    "api": "wx.arrayBufferToBase64",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/wx.arrayBufferToBase64.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.getSystemInfoSync": {
+    "api": "wx.getSystemInfoSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/system/system-info/wx.getSystemInfoSync.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.getSystemInfoAsync": {
+    "api": "wx.getSystemInfoAsync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/system/system-info/wx.getSystemInfoAsync.html",
+    "text": "基础库 2.14.1 开始支持，低版本需做兼容处理。",
+    "version": "2.14.1"
+  },
+  "wx.getSystemInfo": {
+    "api": "wx.getSystemInfo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/system/system-info/wx.getSystemInfo.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.updateWeChatApp": {
+    "api": "wx.updateWeChatApp",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/update/wx.updateWeChatApp.html",
+    "text": "基础库 2.12.0 开始支持，低版本需做兼容处理。",
+    "version": "2.12.0"
+  },
+  "wx.getUpdateManager": {
+    "api": "wx.getUpdateManager",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/update/wx.getUpdateManager.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "wx.getLaunchOptionsSync": {
+    "api": "wx.getLaunchOptionsSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/life-cycle/wx.getLaunchOptionsSync.html",
+    "text": "基础库 2.1.2 开始支持，低版本需做兼容处理。",
+    "version": "2.1.2"
+  },
+  "wx.getEnterOptionsSync": {
+    "api": "wx.getEnterOptionsSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/life-cycle/wx.getEnterOptionsSync.html",
+    "text": "基础库 2.9.4 开始支持，低版本需做兼容处理。",
+    "version": "2.9.4"
+  },
+  "wx.onUnhandledRejection": {
+    "api": "wx.onUnhandledRejection",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.onUnhandledRejection.html",
+    "text": "基础库 2.10.0 开始支持，低版本需做兼容处理。",
+    "version": "2.10.0"
+  },
+  "wx.onThemeChange": {
+    "api": "wx.onThemeChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.onThemeChange.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.onPageNotFound": {
+    "api": "wx.onPageNotFound",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.onPageNotFound.html",
+    "text": "基础库 2.1.2 开始支持，低版本需做兼容处理。",
+    "version": "2.1.2"
+  },
+  "wx.onError": {
+    "api": "wx.onError",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.onError.html",
+    "text": "基础库 2.1.2 开始支持，低版本需做兼容处理。",
+    "version": "2.1.2"
+  },
+  "wx.onAudioInterruptionEnd": {
+    "api": "wx.onAudioInterruptionEnd",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.onAudioInterruptionEnd.html",
+    "text": "基础库 2.6.2 开始支持，低版本需做兼容处理。",
+    "version": "2.6.2"
+  },
+  "wx.onAudioInterruptionBegin": {
+    "api": "wx.onAudioInterruptionBegin",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.onAudioInterruptionBegin.html",
+    "text": "基础库 2.6.2 开始支持，低版本需做兼容处理。",
+    "version": "2.6.2"
+  },
+  "wx.onAppShow": {
+    "api": "wx.onAppShow",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.onAppShow.html",
+    "text": "基础库 2.1.2 开始支持，低版本需做兼容处理。",
+    "version": "2.1.2"
+  },
+  "wx.onAppHide": {
+    "api": "wx.onAppHide",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.onAppHide.html",
+    "text": "基础库 2.1.2 开始支持，低版本需做兼容处理。",
+    "version": "2.1.2"
+  },
+  "wx.offUnhandledRejection": {
+    "api": "wx.offUnhandledRejection",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.offUnhandledRejection.html",
+    "text": "基础库 2.10.0 开始支持，低版本需做兼容处理。",
+    "version": "2.10.0"
+  },
+  "wx.offThemeChange": {
+    "api": "wx.offThemeChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.offThemeChange.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.offPageNotFound": {
+    "api": "wx.offPageNotFound",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.offPageNotFound.html",
+    "text": "基础库 2.1.2 开始支持，低版本需做兼容处理。",
+    "version": "2.1.2"
+  },
+  "wx.offError": {
+    "api": "wx.offError",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.offError.html",
+    "text": "基础库 2.1.2 开始支持，低版本需做兼容处理。",
+    "version": "2.1.2"
+  },
+  "wx.offAudioInterruptionEnd": {
+    "api": "wx.offAudioInterruptionEnd",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.offAudioInterruptionEnd.html",
+    "text": "基础库 2.6.2 开始支持，低版本需做兼容处理。",
+    "version": "2.6.2"
+  },
+  "wx.offAudioInterruptionBegin": {
+    "api": "wx.offAudioInterruptionBegin",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.offAudioInterruptionBegin.html",
+    "text": "基础库 2.6.2 开始支持，低版本需做兼容处理。",
+    "version": "2.6.2"
+  },
+  "wx.offAppShow": {
+    "api": "wx.offAppShow",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.offAppShow.html",
+    "text": "基础库 2.1.2 开始支持，低版本需做兼容处理。",
+    "version": "2.1.2"
+  },
+  "wx.offAppHide": {
+    "api": "wx.offAppHide",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/app/app-event/wx.offAppHide.html",
+    "text": "基础库 2.1.2 开始支持，低版本需做兼容处理。",
+    "version": "2.1.2"
+  },
+  "wx.setEnableDebug": {
+    "api": "wx.setEnableDebug",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/wx.setEnableDebug.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "wx.getRealtimeLogManager": {
+    "api": "wx.getRealtimeLogManager",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/wx.getRealtimeLogManager.html",
+    "text": "基础库 2.7.1 开始支持，低版本需做兼容处理。",
+    "version": "2.7.1"
+  },
+  "wx.getLogManager": {
+    "api": "wx.getLogManager",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/wx.getLogManager.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "RealtimeLogManager.addFilterMsg": {
+    "api": "RealtimeLogManager.addFilterMsg",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/RealtimeLogManager.addFilterMsg.html",
+    "text": "基础库 2.8.1 开始支持，低版本需做兼容处理。",
+    "version": "2.8.1"
+  },
+  "RealtimeLogManager.error": {
+    "api": "RealtimeLogManager.error",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/RealtimeLogManager.error.html",
+    "text": "基础库 2.7.1 开始支持，低版本需做兼容处理。",
+    "version": "2.7.1"
+  },
+  "RealtimeLogManager.info": {
+    "api": "RealtimeLogManager.info",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/RealtimeLogManager.info.html",
+    "text": "基础库 2.7.1 开始支持，低版本需做兼容处理。",
+    "version": "2.7.1"
+  },
+  "RealtimeLogManager.setFilterMsg": {
+    "api": "RealtimeLogManager.setFilterMsg",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/RealtimeLogManager.setFilterMsg.html",
+    "text": "基础库 2.7.3 开始支持，低版本需做兼容处理。",
+    "version": "2.7.3"
+  },
+  "RealtimeLogManager.warn": {
+    "api": "RealtimeLogManager.warn",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/RealtimeLogManager.warn.html",
+    "text": "基础库 2.7.1 开始支持，低版本需做兼容处理。",
+    "version": "2.7.1"
+  },
+  "RealtimeLogManager.in": {
+    "api": "RealtimeLogManager.in",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/RealtimeLogManager.in.html",
+    "text": "基础库 2.9.1 开始支持，低版本需做兼容处理。",
+    "version": "2.9.1"
+  },
+  "wx.switchTab": {
+    "api": "wx.switchTab",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.switchTab.html",
+    "text": "本接口从基础库版本 2.3.1 起支持在小程序插件中使用",
+    "pluginVersion": "2.3.1"
+  },
+  "wx.reLaunch": {
+    "api": "wx.reLaunch",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.reLaunch.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.redirectTo": {
+    "api": "wx.redirectTo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.redirectTo.html",
+    "text": "本接口从基础库版本 2.2.2 起支持在小程序插件中使用",
+    "pluginVersion": "2.2.2"
+  },
+  "wx.navigateTo": {
+    "api": "wx.navigateTo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.navigateTo.html",
+    "text": "本接口从基础库版本 2.2.2 起支持在小程序插件中使用",
+    "pluginVersion": "2.2.2"
+  },
+  "wx.navigateBack": {
+    "api": "wx.navigateBack",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.navigateBack.html",
+    "text": "本接口从基础库版本 2.1.0 起支持在小程序插件中使用",
+    "pluginVersion": "2.1.0"
+  },
+  "EventChannel": {
+    "api": "EventChannel",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/EventChannel.html",
+    "text": "基础库 2.7.3 开始支持，低版本需做兼容处理。",
+    "version": "2.7.3"
+  },
+  "EventChannel.emit": {
+    "api": "EventChannel.emit",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/EventChannel.emit.html",
+    "text": "基础库 2.7.3 开始支持，低版本需做兼容处理。",
+    "version": "2.7.3"
+  },
+  "EventChannel.off": {
+    "api": "EventChannel.off",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/EventChannel.off.html",
+    "text": "基础库 2.7.3 开始支持，低版本需做兼容处理。",
+    "version": "2.7.3"
+  },
+  "EventChannel.on": {
+    "api": "EventChannel.on",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/EventChannel.on.html",
+    "text": "基础库 2.7.3 开始支持，低版本需做兼容处理。",
+    "version": "2.7.3"
+  },
+  "EventChannel.once": {
+    "api": "EventChannel.once",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/route/EventChannel.once.html",
+    "text": "基础库 2.7.3 开始支持，低版本需做兼容处理。",
+    "version": "2.7.3"
+  },
+  "wx.showToast": {
+    "api": "wx.showToast",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showToast.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.showModal": {
+    "api": "wx.showModal",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showModal.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.showLoading": {
+    "api": "wx.showLoading",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showLoading.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.showActionSheet": {
+    "api": "wx.showActionSheet",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showActionSheet.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.hideToast": {
+    "api": "wx.hideToast",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.hideToast.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.hideLoading": {
+    "api": "wx.hideLoading",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.hideLoading.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.enableAlertBeforeUnload": {
+    "api": "wx.enableAlertBeforeUnload",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.enableAlertBeforeUnload.html",
+    "text": "基础库 2.12.0 开始支持，低版本需做兼容处理。",
+    "version": "2.12.0"
+  },
+  "wx.disableAlertBeforeUnload": {
+    "api": "wx.disableAlertBeforeUnload",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.disableAlertBeforeUnload.html",
+    "text": "基础库 2.12.0 开始支持，低版本需做兼容处理。",
+    "version": "2.12.0"
+  },
+  "wx.showNavigationBarLoading": {
+    "api": "wx.showNavigationBarLoading",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.showNavigationBarLoading.html",
+    "text": "本接口从基础库版本 2.1.0 起支持在小程序插件中使用",
+    "pluginVersion": "2.1.0"
+  },
+  "wx.setNavigationBarTitle": {
+    "api": "wx.setNavigationBarTitle",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.setNavigationBarTitle.html",
+    "text": "本接口从基础库版本 2.1.0 起支持在小程序插件中使用",
+    "pluginVersion": "2.1.0"
+  },
+  "wx.setNavigationBarColor": {
+    "api": "wx.setNavigationBarColor",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.setNavigationBarColor.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "wx.hideNavigationBarLoading": {
+    "api": "wx.hideNavigationBarLoading",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.hideNavigationBarLoading.html",
+    "text": "本接口从基础库版本 2.1.0 起支持在小程序插件中使用",
+    "pluginVersion": "2.1.0"
+  },
+  "wx.hideHomeButton": {
+    "api": "wx.hideHomeButton",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/navigation-bar/wx.hideHomeButton.html",
+    "text": "基础库 2.8.3 开始支持，低版本需做兼容处理。",
+    "version": "2.8.3"
+  },
+  "wx.setBackgroundTextStyle": {
+    "api": "wx.setBackgroundTextStyle",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/background/wx.setBackgroundTextStyle.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "wx.setBackgroundColor": {
+    "api": "wx.setBackgroundColor",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/background/wx.setBackgroundColor.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "wx.showTabBarRedDot": {
+    "api": "wx.showTabBarRedDot",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.showTabBarRedDot.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "wx.showTabBar": {
+    "api": "wx.showTabBar",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.showTabBar.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "wx.setTabBarStyle": {
+    "api": "wx.setTabBarStyle",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.setTabBarStyle.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "wx.setTabBarItem": {
+    "api": "wx.setTabBarItem",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.setTabBarItem.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "wx.setTabBarBadge": {
+    "api": "wx.setTabBarBadge",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.setTabBarBadge.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "wx.removeTabBarBadge": {
+    "api": "wx.removeTabBarBadge",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.removeTabBarBadge.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "wx.hideTabBarRedDot": {
+    "api": "wx.hideTabBarRedDot",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.hideTabBarRedDot.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "wx.hideTabBar": {
+    "api": "wx.hideTabBar",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/tab-bar/wx.hideTabBar.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "wx.loadFontFace": {
+    "api": "wx.loadFontFace",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/font/wx.loadFontFace.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "wx.stopPullDownRefresh": {
+    "api": "wx.stopPullDownRefresh",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/pull-down-refresh/wx.stopPullDownRefresh.html",
+    "text": "基础库 1.5.0 开始支持，低版本需做兼容处理。",
+    "version": "1.5.0"
+  },
+  "wx.startPullDownRefresh": {
+    "api": "wx.startPullDownRefresh",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/pull-down-refresh/wx.startPullDownRefresh.html",
+    "text": "基础库 1.5.0 开始支持，低版本需做兼容处理。",
+    "version": "1.5.0"
+  },
+  "wx.pageScrollTo": {
+    "api": "wx.pageScrollTo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/scroll/wx.pageScrollTo.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "wx.createAnimation": {
+    "api": "wx.createAnimation",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/animation/wx.createAnimation.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.setTopBarText": {
+    "api": "wx.setTopBarText",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/sticky/wx.setTopBarText.html",
+    "text": "基础库 1.4.3 开始支持，低版本需做兼容处理。",
+    "version": "1.4.3"
+  },
+  "wx.nextTick": {
+    "api": "wx.nextTick",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/custom-component/wx.nextTick.html",
+    "text": "基础库 2.2.3 开始支持，低版本需做兼容处理。",
+    "version": "2.2.3"
+  },
+  "wx.getMenuButtonBoundingClientRect": {
+    "api": "wx.getMenuButtonBoundingClientRect",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/menu/wx.getMenuButtonBoundingClientRect.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "wx.setWindowSize": {
+    "api": "wx.setWindowSize",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/window/wx.setWindowSize.html",
+    "text": "基础库 2.10.1 开始支持，低版本需做兼容处理。",
+    "version": "2.10.1"
+  },
+  "wx.onWindowResize": {
+    "api": "wx.onWindowResize",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/window/wx.onWindowResize.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.offWindowResize": {
+    "api": "wx.offWindowResize",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/window/wx.offWindowResize.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.onKeyboardHeightChange": {
+    "api": "wx.onKeyboardHeightChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/keyboard/wx.onKeyboardHeightChange.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "wx.offKeyboardHeightChange": {
+    "api": "wx.offKeyboardHeightChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/keyboard/wx.offKeyboardHeightChange.html",
+    "text": "基础库 2.9.2 开始支持，低版本需做兼容处理。",
+    "version": "2.9.2"
+  },
+  "wx.hideKeyboard": {
+    "api": "wx.hideKeyboard",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/keyboard/wx.hideKeyboard.html",
+    "text": "基础库 2.8.2 开始支持，低版本需做兼容处理。",
+    "version": "2.8.2"
+  },
+  "wx.getSelectedTextRange": {
+    "api": "wx.getSelectedTextRange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ui/keyboard/wx.getSelectedTextRange.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "wx.request": {
+    "api": "wx.request",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/request/wx.request.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "RequestTask": {
+    "api": "RequestTask",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/request/RequestTask.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "RequestTask.abort": {
+    "api": "RequestTask.abort",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/request/RequestTask.abort.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "RequestTask.offHeadersReceived": {
+    "api": "RequestTask.offHeadersReceived",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/request/RequestTask.offHeadersReceived.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "RequestTask.onHeadersReceived": {
+    "api": "RequestTask.onHeadersReceived",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/request/RequestTask.onHeadersReceived.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "wx.downloadFile": {
+    "api": "wx.downloadFile",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "DownloadTask": {
+    "api": "DownloadTask",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/DownloadTask.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "DownloadTask.abort": {
+    "api": "DownloadTask.abort",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/DownloadTask.abort.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "DownloadTask.offHeadersReceived": {
+    "api": "DownloadTask.offHeadersReceived",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/DownloadTask.offHeadersReceived.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "DownloadTask.offProgressUpdate": {
+    "api": "DownloadTask.offProgressUpdate",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/DownloadTask.offProgressUpdate.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "DownloadTask.onHeadersReceived": {
+    "api": "DownloadTask.onHeadersReceived",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/DownloadTask.onHeadersReceived.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "DownloadTask.onProgressUpdate": {
+    "api": "DownloadTask.onProgressUpdate",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/download/DownloadTask.onProgressUpdate.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "wx.uploadFile": {
+    "api": "wx.uploadFile",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/wx.uploadFile.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "UploadTask": {
+    "api": "UploadTask",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/UploadTask.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "UploadTask.abort": {
+    "api": "UploadTask.abort",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/UploadTask.abort.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "UploadTask.offHeadersReceived": {
+    "api": "UploadTask.offHeadersReceived",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/UploadTask.offHeadersReceived.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "UploadTask.offProgressUpdate": {
+    "api": "UploadTask.offProgressUpdate",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/UploadTask.offProgressUpdate.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "UploadTask.onHeadersReceived": {
+    "api": "UploadTask.onHeadersReceived",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/UploadTask.onHeadersReceived.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "UploadTask.onProgressUpdate": {
+    "api": "UploadTask.onProgressUpdate",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/upload/UploadTask.onProgressUpdate.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "wx.connectSocket": {
+    "api": "wx.connectSocket",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/wx.connectSocket.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "SocketTask": {
+    "api": "SocketTask",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/SocketTask.html",
+    "text": "基础库 1.7.0 开始支持，低版本需做兼容处理。",
+    "version": "1.7.0"
+  },
+  "wx.stopLocalServiceDiscovery": {
+    "api": "wx.stopLocalServiceDiscovery",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/mdns/wx.stopLocalServiceDiscovery.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "wx.startLocalServiceDiscovery": {
+    "api": "wx.startLocalServiceDiscovery",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/mdns/wx.startLocalServiceDiscovery.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "wx.onLocalServiceResolveFail": {
+    "api": "wx.onLocalServiceResolveFail",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/mdns/wx.onLocalServiceResolveFail.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "wx.onLocalServiceLost": {
+    "api": "wx.onLocalServiceLost",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/mdns/wx.onLocalServiceLost.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "wx.onLocalServiceFound": {
+    "api": "wx.onLocalServiceFound",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/mdns/wx.onLocalServiceFound.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "wx.onLocalServiceDiscoveryStop": {
+    "api": "wx.onLocalServiceDiscoveryStop",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/mdns/wx.onLocalServiceDiscoveryStop.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "wx.offLocalServiceResolveFail": {
+    "api": "wx.offLocalServiceResolveFail",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/mdns/wx.offLocalServiceResolveFail.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "wx.offLocalServiceLost": {
+    "api": "wx.offLocalServiceLost",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/mdns/wx.offLocalServiceLost.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "wx.offLocalServiceFound": {
+    "api": "wx.offLocalServiceFound",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/mdns/wx.offLocalServiceFound.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "wx.offLocalServiceDiscoveryStop": {
+    "api": "wx.offLocalServiceDiscoveryStop",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/mdns/wx.offLocalServiceDiscoveryStop.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "wx.createUDPSocket": {
+    "api": "wx.createUDPSocket",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/udp/wx.createUDPSocket.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "UDPSocket": {
+    "api": "UDPSocket",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/udp/UDPSocket.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "UDPSocket.bind": {
+    "api": "UDPSocket.bind",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/network/udp/UDPSocket.bind.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "wx.setStorageSync": {
+    "api": "wx.setStorageSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.setStorageSync.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.setStorage": {
+    "api": "wx.setStorage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.setStorage.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.removeStorageSync": {
+    "api": "wx.removeStorageSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.removeStorageSync.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.removeStorage": {
+    "api": "wx.removeStorage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.removeStorage.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.getStorageSync": {
+    "api": "wx.getStorageSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.getStorageSync.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.getStorage": {
+    "api": "wx.getStorage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/wx.getStorage.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.setBackgroundFetchToken": {
+    "api": "wx.setBackgroundFetchToken",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/background-fetch/wx.setBackgroundFetchToken.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  },
+  "wx.onBackgroundFetchData": {
+    "api": "wx.onBackgroundFetchData",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/background-fetch/wx.onBackgroundFetchData.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  },
+  "wx.getBackgroundFetchToken": {
+    "api": "wx.getBackgroundFetchToken",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/background-fetch/wx.getBackgroundFetchToken.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  },
+  "wx.getBackgroundFetchData": {
+    "api": "wx.getBackgroundFetchData",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/storage/background-fetch/wx.getBackgroundFetchData.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  },
+  "wx.createMapContext": {
+    "api": "wx.createMapContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/wx.createMapContext.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "MapContext.addCustomLayer": {
+    "api": "MapContext.addCustomLayer",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.addCustomLayer.html",
+    "text": "基础库 2.12.0 开始支持，低版本需做兼容处理。",
+    "version": "2.12.0"
+  },
+  "MapContext.addGroundOverlay": {
+    "api": "MapContext.addGroundOverlay",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.addGroundOverlay.html",
+    "text": "基础库 2.14.0 开始支持，低版本需做兼容处理。",
+    "version": "2.14.0"
+  },
+  "MapContext.addMarkers": {
+    "api": "MapContext.addMarkers",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.addMarkers.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "MapContext.fromScreenLocation": {
+    "api": "MapContext.fromScreenLocation",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.fromScreenLocation.html",
+    "text": "基础库 2.14.0 开始支持，低版本需做兼容处理。",
+    "version": "2.14.0"
+  },
+  "MapContext.getRegion": {
+    "api": "MapContext.getRegion",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.getRegion.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "MapContext.getRotate": {
+    "api": "MapContext.getRotate",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.getRotate.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  },
+  "MapContext.getScale": {
+    "api": "MapContext.getScale",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.getScale.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "MapContext.getSkew": {
+    "api": "MapContext.getSkew",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.getSkew.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  },
+  "MapContext.includePoints": {
+    "api": "MapContext.includePoints",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.includePoints.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "MapContext.initMarkerCluster": {
+    "api": "MapContext.initMarkerCluster",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.initMarkerCluster.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "MapContext.moveAlong": {
+    "api": "MapContext.moveAlong",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.moveAlong.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "MapContext.moveToLocation": {
+    "api": "MapContext.moveToLocation",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.moveToLocation.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "MapContext.on": {
+    "api": "MapContext.on",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.on.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "MapContext.openMapApp": {
+    "api": "MapContext.openMapApp",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.openMapApp.html",
+    "text": "基础库 2.14.0 开始支持，低版本需做兼容处理。",
+    "version": "2.14.0"
+  },
+  "MapContext.removeCustomLayer": {
+    "api": "MapContext.removeCustomLayer",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.removeCustomLayer.html",
+    "text": "基础库 2.12.0 开始支持，低版本需做兼容处理。",
+    "version": "2.12.0"
+  },
+  "MapContext.removeGroundOverlay": {
+    "api": "MapContext.removeGroundOverlay",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.removeGroundOverlay.html",
+    "text": "基础库 2.14.0 开始支持，低版本需做兼容处理。",
+    "version": "2.14.0"
+  },
+  "MapContext.removeMarkers": {
+    "api": "MapContext.removeMarkers",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.removeMarkers.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "MapContext.setCenterOffset": {
+    "api": "MapContext.setCenterOffset",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.setCenterOffset.html",
+    "text": "基础库 2.10.0 开始支持，低版本需做兼容处理。",
+    "version": "2.10.0"
+  },
+  "MapContext.toScreenLocation": {
+    "api": "MapContext.toScreenLocation",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.toScreenLocation.html",
+    "text": "基础库 2.14.0 开始支持，低版本需做兼容处理。",
+    "version": "2.14.0"
+  },
+  "MapContext.translateMarker": {
+    "api": "MapContext.translateMarker",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.translateMarker.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "MapContext.updateGroundOverlay": {
+    "api": "MapContext.updateGroundOverlay",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/map/MapContext.updateGroundOverlay.html",
+    "text": "基础库 2.14.0 开始支持，低版本需做兼容处理。",
+    "version": "2.14.0"
+  },
+  "wx.saveImageToPhotosAlbum": {
+    "api": "wx.saveImageToPhotosAlbum",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.saveImageToPhotosAlbum.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.previewMedia": {
+    "api": "wx.previewMedia",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.previewMedia.html",
+    "text": "基础库 2.12.0 开始支持，低版本需做兼容处理。",
+    "version": "2.12.0"
+  },
+  "wx.previewImage": {
+    "api": "wx.previewImage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.previewImage.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.getImageInfo": {
+    "api": "wx.getImageInfo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.getImageInfo.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.compressImage": {
+    "api": "wx.compressImage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.compressImage.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "wx.chooseMessageFile": {
+    "api": "wx.chooseMessageFile",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.chooseMessageFile.html",
+    "text": "基础库 2.5.0 开始支持，低版本需做兼容处理。",
+    "version": "2.5.0"
+  },
+  "wx.chooseImage": {
+    "api": "wx.chooseImage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/image/wx.chooseImage.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.saveVideoToPhotosAlbum": {
+    "api": "wx.saveVideoToPhotosAlbum",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.saveVideoToPhotosAlbum.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.openVideoEditor": {
+    "api": "wx.openVideoEditor",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.openVideoEditor.html",
+    "text": "基础库 2.12.0 开始支持，低版本需做兼容处理。",
+    "version": "2.12.0"
+  },
+  "wx.getVideoInfo": {
+    "api": "wx.getVideoInfo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.getVideoInfo.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.createVideoContext": {
+    "api": "wx.createVideoContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.createVideoContext.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.compressVideo": {
+    "api": "wx.compressVideo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.compressVideo.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.chooseVideo": {
+    "api": "wx.chooseVideo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.chooseVideo.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.chooseMedia": {
+    "api": "wx.chooseMedia",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/wx.chooseMedia.html",
+    "text": "基础库 2.10.0 开始支持，低版本需做兼容处理。",
+    "version": "2.10.0"
+  },
+  "VideoContext.exitFullScreen": {
+    "api": "VideoContext.exitFullScreen",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.exitFullScreen.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "VideoContext.hideStatusBar": {
+    "api": "VideoContext.hideStatusBar",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.hideStatusBar.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "VideoContext.playbackRate": {
+    "api": "VideoContext.playbackRate",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.playbackRate.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "VideoContext.requestFullScreen": {
+    "api": "VideoContext.requestFullScreen",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.requestFullScreen.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "VideoContext.showStatusBar": {
+    "api": "VideoContext.showStatusBar",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.showStatusBar.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "VideoContext.stop": {
+    "api": "VideoContext.stop",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video/VideoContext.stop.html",
+    "text": "基础库 1.7.0 开始支持，低版本需做兼容处理。",
+    "version": "1.7.0"
+  },
+  "wx.stopVoice": {
+    "api": "wx.stopVoice",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.stopVoice.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.setInnerAudioOption": {
+    "api": "wx.setInnerAudioOption",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.setInnerAudioOption.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.playVoice": {
+    "api": "wx.playVoice",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.playVoice.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.pauseVoice": {
+    "api": "wx.pauseVoice",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.pauseVoice.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.getAvailableAudioSources": {
+    "api": "wx.getAvailableAudioSources",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.getAvailableAudioSources.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "wx.createMediaAudioPlayer": {
+    "api": "wx.createMediaAudioPlayer",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.createMediaAudioPlayer.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "wx.createInnerAudioContext": {
+    "api": "wx.createInnerAudioContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.createInnerAudioContext.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "wx.createAudioContext": {
+    "api": "wx.createAudioContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/wx.createAudioContext.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "InnerAudioContext": {
+    "api": "InnerAudioContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "InnerAudioContext.offCanplay": {
+    "api": "InnerAudioContext.offCanplay",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offCanplay.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "InnerAudioContext.offEnded": {
+    "api": "InnerAudioContext.offEnded",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offEnded.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "InnerAudioContext.offError": {
+    "api": "InnerAudioContext.offError",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offError.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "InnerAudioContext.offPause": {
+    "api": "InnerAudioContext.offPause",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offPause.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "InnerAudioContext.offPlay": {
+    "api": "InnerAudioContext.offPlay",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offPlay.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "InnerAudioContext.offSeeked": {
+    "api": "InnerAudioContext.offSeeked",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offSeeked.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "InnerAudioContext.offSeeking": {
+    "api": "InnerAudioContext.offSeeking",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offSeeking.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "InnerAudioContext.offStop": {
+    "api": "InnerAudioContext.offStop",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offStop.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "InnerAudioContext.offTimeUpdate": {
+    "api": "InnerAudioContext.offTimeUpdate",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offTimeUpdate.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "InnerAudioContext.offWaiting": {
+    "api": "InnerAudioContext.offWaiting",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/audio/InnerAudioContext.offWaiting.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "wx.stopBackgroundAudio": {
+    "api": "wx.stopBackgroundAudio",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.stopBackgroundAudio.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.seekBackgroundAudio": {
+    "api": "wx.seekBackgroundAudio",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.seekBackgroundAudio.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.playBackgroundAudio": {
+    "api": "wx.playBackgroundAudio",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.playBackgroundAudio.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.pauseBackgroundAudio": {
+    "api": "wx.pauseBackgroundAudio",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.pauseBackgroundAudio.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.onBackgroundAudioStop": {
+    "api": "wx.onBackgroundAudioStop",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.onBackgroundAudioStop.html",
+    "text": "从基础库 1.2.0 开始，本接口停止维护，请使用 wx.getBackgroundAudioManager 代替",
+    "version": "1.2.0"
+  },
+  "wx.onBackgroundAudioPlay": {
+    "api": "wx.onBackgroundAudioPlay",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.onBackgroundAudioPlay.html",
+    "text": "从基础库 1.2.0 开始，本接口停止维护，请使用 wx.getBackgroundAudioManager 代替",
+    "version": "1.2.0"
+  },
+  "wx.onBackgroundAudioPause": {
+    "api": "wx.onBackgroundAudioPause",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.onBackgroundAudioPause.html",
+    "text": "从基础库 1.2.0 开始，本接口停止维护，请使用 wx.getBackgroundAudioManager 代替",
+    "version": "1.2.0"
+  },
+  "wx.getBackgroundAudioPlayerState": {
+    "api": "wx.getBackgroundAudioPlayerState",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.getBackgroundAudioPlayerState.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.getBackgroundAudioManager": {
+    "api": "wx.getBackgroundAudioManager",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/wx.getBackgroundAudioManager.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "BackgroundAudioManager": {
+    "api": "BackgroundAudioManager",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/background-audio/BackgroundAudioManager.html",
+    "text": "基础库 1.9.94 开始支持，低版本需做兼容处理。",
+    "version": "1.9.94"
+  },
+  "wx.createLivePusherContext": {
+    "api": "wx.createLivePusherContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/wx.createLivePusherContext.html",
+    "text": "基础库 1.7.0 开始支持，低版本需做兼容处理。",
+    "version": "1.7.0"
+  },
+  "wx.createLivePlayerContext": {
+    "api": "wx.createLivePlayerContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/wx.createLivePlayerContext.html",
+    "text": "基础库 1.7.0 开始支持，低版本需做兼容处理。",
+    "version": "1.7.0"
+  },
+  "LivePlayerContext.pause": {
+    "api": "LivePlayerContext.pause",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.pause.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "LivePlayerContext.requestPictureInPicture": {
+    "api": "LivePlayerContext.requestPictureInPicture",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.requestPictureInPicture.html",
+    "text": "基础库 2.15.0 开始支持，低版本需做兼容处理。",
+    "version": "2.15.0"
+  },
+  "LivePlayerContext.resume": {
+    "api": "LivePlayerContext.resume",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.resume.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "LivePlayerContext.snapshot": {
+    "api": "LivePlayerContext.snapshot",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePlayerContext.snapshot.html",
+    "text": "基础库 2.7.1 开始支持，低版本需做兼容处理。",
+    "version": "2.7.1"
+  },
+  "LivePusherContext.pauseBGM": {
+    "api": "LivePusherContext.pauseBGM",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.pauseBGM.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "LivePusherContext.playBGM": {
+    "api": "LivePusherContext.playBGM",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.playBGM.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "LivePusherContext.resumeBGM": {
+    "api": "LivePusherContext.resumeBGM",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.resumeBGM.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "LivePusherContext.sendMessage": {
+    "api": "LivePusherContext.sendMessage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.sendMessage.html",
+    "text": "基础库 2.10.0 开始支持，低版本需做兼容处理。",
+    "version": "2.10.0"
+  },
+  "LivePusherContext.setBGMVolume": {
+    "api": "LivePusherContext.setBGMVolume",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.setBGMVolume.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "LivePusherContext.setMICVolume": {
+    "api": "LivePusherContext.setMICVolume",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.setMICVolume.html",
+    "text": "基础库 2.10.0 开始支持，低版本需做兼容处理。",
+    "version": "2.10.0"
+  },
+  "LivePusherContext.snapshot": {
+    "api": "LivePusherContext.snapshot",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.snapshot.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "LivePusherContext.startPreview": {
+    "api": "LivePusherContext.startPreview",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.startPreview.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "LivePusherContext.stopBGM": {
+    "api": "LivePusherContext.stopBGM",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.stopBGM.html",
+    "text": "基础库 2.4.0 开始支持，低版本需做兼容处理。",
+    "version": "2.4.0"
+  },
+  "LivePusherContext.stopPreview": {
+    "api": "LivePusherContext.stopPreview",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.stopPreview.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "LivePusherContext.toggleTorch": {
+    "api": "LivePusherContext.toggleTorch",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/live/LivePusherContext.toggleTorch.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "wx.stopRecord": {
+    "api": "wx.stopRecord",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/wx.stopRecord.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.startRecord": {
+    "api": "wx.startRecord",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/wx.startRecord.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.getRecorderManager": {
+    "api": "wx.getRecorderManager",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/wx.getRecorderManager.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "RecorderManager.onInterruptionBegin": {
+    "api": "RecorderManager.onInterruptionBegin",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.onInterruptionBegin.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "RecorderManager.onInterruptionEnd": {
+    "api": "RecorderManager.onInterruptionEnd",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/recorder/RecorderManager.onInterruptionEnd.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.createCameraContext": {
+    "api": "wx.createCameraContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/camera/wx.createCameraContext.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "CameraContext.onCameraFrame": {
+    "api": "CameraContext.onCameraFrame",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/camera/CameraContext.onCameraFrame.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "CameraContext.setZoom": {
+    "api": "CameraContext.setZoom",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/camera/CameraContext.setZoom.html",
+    "text": "基础库 2.10.0 开始支持，低版本需做兼容处理。",
+    "version": "2.10.0"
+  },
+  "EditorContext.blur": {
+    "api": "EditorContext.blur",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.blur.html",
+    "text": "基础库 2.8.3 开始支持，低版本需做兼容处理。",
+    "version": "2.8.3"
+  },
+  "EditorContext": {
+    "api": "EditorContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "EditorContext.clear": {
+    "api": "EditorContext.clear",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.clear.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "EditorContext.format": {
+    "api": "EditorContext.format",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.format.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "EditorContext.getContents": {
+    "api": "EditorContext.getContents",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.getContents.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "EditorContext.getSelectionText": {
+    "api": "EditorContext.getSelectionText",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.getSelectionText.html",
+    "text": "基础库 2.10.2 开始支持，低版本需做兼容处理。",
+    "version": "2.10.2"
+  },
+  "EditorContext.insertDivider": {
+    "api": "EditorContext.insertDivider",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.insertDivider.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "EditorContext.insertImage": {
+    "api": "EditorContext.insertImage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.insertImage.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "EditorContext.insertText": {
+    "api": "EditorContext.insertText",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.insertText.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "EditorContext.redo": {
+    "api": "EditorContext.redo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.redo.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "EditorContext.removeFormat": {
+    "api": "EditorContext.removeFormat",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.removeFormat.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "EditorContext.scrollIntoView": {
+    "api": "EditorContext.scrollIntoView",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.scrollIntoView.html",
+    "text": "基础库 2.8.3 开始支持，低版本需做兼容处理。",
+    "version": "2.8.3"
+  },
+  "EditorContext.setContents": {
+    "api": "EditorContext.setContents",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.setContents.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "EditorContext.undo": {
+    "api": "EditorContext.undo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/editor/EditorContext.undo.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "wx.createMediaContainer": {
+    "api": "wx.createMediaContainer",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-processing/wx.createMediaContainer.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "MediaContainer": {
+    "api": "MediaContainer",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-processing/MediaContainer.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "MediaContainer.addTrack": {
+    "api": "MediaContainer.addTrack",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-processing/MediaContainer.addTrack.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "MediaContainer.destroy": {
+    "api": "MediaContainer.destroy",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-processing/MediaContainer.destroy.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "MediaContainer.export": {
+    "api": "MediaContainer.export",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-processing/MediaContainer.export.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "MediaContainer.extractDataSource": {
+    "api": "MediaContainer.extractDataSource",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-processing/MediaContainer.extractDataSource.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "MediaContainer.removeTrack": {
+    "api": "MediaContainer.removeTrack",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-processing/MediaContainer.removeTrack.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "MediaTrack": {
+    "api": "MediaTrack",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-processing/MediaTrack.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "wx.updateVoIPChatMuteConfig": {
+    "api": "wx.updateVoIPChatMuteConfig",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/voip/wx.updateVoIPChatMuteConfig.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "wx.subscribeVoIPVideoMembers": {
+    "api": "wx.subscribeVoIPVideoMembers",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/voip/wx.subscribeVoIPVideoMembers.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.onVoIPVideoMembersChanged": {
+    "api": "wx.onVoIPVideoMembersChanged",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/voip/wx.onVoIPVideoMembersChanged.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.onVoIPChatSpeakersChanged": {
+    "api": "wx.onVoIPChatSpeakersChanged",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/voip/wx.onVoIPChatSpeakersChanged.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "wx.onVoIPChatMembersChanged": {
+    "api": "wx.onVoIPChatMembersChanged",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/voip/wx.onVoIPChatMembersChanged.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "wx.onVoIPChatInterrupted": {
+    "api": "wx.onVoIPChatInterrupted",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/voip/wx.onVoIPChatInterrupted.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "wx.offVoIPVideoMembersChanged": {
+    "api": "wx.offVoIPVideoMembersChanged",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/voip/wx.offVoIPVideoMembersChanged.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.offVoIPChatMembersChanged": {
+    "api": "wx.offVoIPChatMembersChanged",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/voip/wx.offVoIPChatMembersChanged.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "wx.offVoIPChatInterrupted": {
+    "api": "wx.offVoIPChatInterrupted",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/voip/wx.offVoIPChatInterrupted.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "wx.joinVoIPChat": {
+    "api": "wx.joinVoIPChat",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/voip/wx.joinVoIPChat.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "wx.exitVoIPChat": {
+    "api": "wx.exitVoIPChat",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/voip/wx.exitVoIPChat.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "wx.createMediaRecorder": {
+    "api": "wx.createMediaRecorder",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/media-recorder/wx.createMediaRecorder.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "MediaRecorder": {
+    "api": "MediaRecorder",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/media-recorder/MediaRecorder.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "MediaRecorder.destroy": {
+    "api": "MediaRecorder.destroy",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/media-recorder/MediaRecorder.destroy.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "MediaRecorder.off": {
+    "api": "MediaRecorder.off",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/media-recorder/MediaRecorder.off.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "MediaRecorder.on": {
+    "api": "MediaRecorder.on",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/media-recorder/MediaRecorder.on.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "MediaRecorder.pause": {
+    "api": "MediaRecorder.pause",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/media-recorder/MediaRecorder.pause.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "MediaRecorder.requestFrame": {
+    "api": "MediaRecorder.requestFrame",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/media-recorder/MediaRecorder.requestFrame.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "MediaRecorder.resume": {
+    "api": "MediaRecorder.resume",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/media-recorder/MediaRecorder.resume.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "MediaRecorder.start": {
+    "api": "MediaRecorder.start",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/media-recorder/MediaRecorder.start.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "MediaRecorder.stop": {
+    "api": "MediaRecorder.stop",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/media-recorder/MediaRecorder.stop.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "ScrollViewContext.scrollIntoView": {
+    "api": "ScrollViewContext.scrollIntoView",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/scrollview/ScrollViewContext.scrollIntoView.html",
+    "text": "基础库 2.14.4 开始支持，低版本需做兼容处理。",
+    "version": "2.14.4"
+  },
+  "ScrollViewContext": {
+    "api": "ScrollViewContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/scrollview/ScrollViewContext.html",
+    "text": "基础库 2.14.4 开始支持，低版本需做兼容处理。",
+    "version": "2.14.4"
+  },
+  "ScrollViewContext.scrollTo": {
+    "api": "ScrollViewContext.scrollTo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/scrollview/ScrollViewContext.scrollTo.html",
+    "text": "基础库 2.14.4 开始支持，低版本需做兼容处理。",
+    "version": "2.14.4"
+  },
+  "wx.createVideoDecoder": {
+    "api": "wx.createVideoDecoder",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-decoder/wx.createVideoDecoder.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "VideoDecoder": {
+    "api": "VideoDecoder",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-decoder/VideoDecoder.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "VideoDecoder.getFrameData": {
+    "api": "VideoDecoder.getFrameData",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-decoder/VideoDecoder.getFrameData.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "VideoDecoder.off": {
+    "api": "VideoDecoder.off",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-decoder/VideoDecoder.off.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "VideoDecoder.on": {
+    "api": "VideoDecoder.on",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-decoder/VideoDecoder.on.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "VideoDecoder.remove": {
+    "api": "VideoDecoder.remove",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-decoder/VideoDecoder.remove.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "VideoDecoder.seek": {
+    "api": "VideoDecoder.seek",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-decoder/VideoDecoder.seek.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "VideoDecoder.start": {
+    "api": "VideoDecoder.start",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-decoder/VideoDecoder.start.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "VideoDecoder.stop": {
+    "api": "VideoDecoder.stop",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/media/video-decoder/VideoDecoder.stop.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.stopLocationUpdate": {
+    "api": "wx.stopLocationUpdate",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.stopLocationUpdate.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  },
+  "wx.startLocationUpdateBackground": {
+    "api": "wx.startLocationUpdateBackground",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.startLocationUpdateBackground.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  },
+  "wx.startLocationUpdate": {
+    "api": "wx.startLocationUpdate",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.startLocationUpdate.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  },
+  "wx.openLocation": {
+    "api": "wx.openLocation",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.openLocation.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.onLocationChange": {
+    "api": "wx.onLocationChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.onLocationChange.html",
+    "text": "基础库 2.8.1 开始支持，低版本需做兼容处理。",
+    "version": "2.8.1"
+  },
+  "wx.offLocationChange": {
+    "api": "wx.offLocationChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.offLocationChange.html",
+    "text": "基础库 2.8.1 开始支持，低版本需做兼容处理。",
+    "version": "2.8.1"
+  },
+  "wx.getLocation": {
+    "api": "wx.getLocation",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.getLocation.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.chooseLocation": {
+    "api": "wx.chooseLocation",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/location/wx.chooseLocation.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.updateShareMenu": {
+    "api": "wx.updateShareMenu",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.updateShareMenu.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.showShareMenu": {
+    "api": "wx.showShareMenu",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.showShareMenu.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.showShareImageMenu": {
+    "api": "wx.showShareImageMenu",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.showShareImageMenu.html",
+    "text": "基础库 2.14.3 开始支持，低版本需做兼容处理。",
+    "version": "2.14.3"
+  },
+  "wx.onCopyUrl": {
+    "api": "wx.onCopyUrl",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.onCopyUrl.html",
+    "text": "基础库 2.14.3 开始支持，低版本需做兼容处理。",
+    "version": "2.14.3"
+  },
+  "wx.offCopyUrl": {
+    "api": "wx.offCopyUrl",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.offCopyUrl.html",
+    "text": "基础库 2.14.3 开始支持，低版本需做兼容处理。",
+    "version": "2.14.3"
+  },
+  "wx.hideShareMenu": {
+    "api": "wx.hideShareMenu",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.hideShareMenu.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.getShareInfo": {
+    "api": "wx.getShareInfo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.getShareInfo.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.authPrivateMessage": {
+    "api": "wx.authPrivateMessage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/share/wx.authPrivateMessage.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "wx.createOffscreenCanvas": {
+    "api": "wx.createOffscreenCanvas",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.createOffscreenCanvas.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "wx.createCanvasContext": {
+    "api": "wx.createCanvasContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.createCanvasContext.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.canvasToTempFilePath": {
+    "api": "wx.canvasToTempFilePath",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasToTempFilePath.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.canvasPutImageData": {
+    "api": "wx.canvasPutImageData",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasPutImageData.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "wx.canvasGetImageData": {
+    "api": "wx.canvasGetImageData",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/wx.canvasGetImageData.html",
+    "text": "基础库 1.9.0 开始支持，低版本需做兼容处理。",
+    "version": "1.9.0"
+  },
+  "Canvas": {
+    "api": "Canvas",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Canvas.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "Canvas.cancelAnimationFrame": {
+    "api": "Canvas.cancelAnimationFrame",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Canvas.cancelAnimationFrame.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "Canvas.createImage": {
+    "api": "Canvas.createImage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Canvas.createImage.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "Canvas.createImageData": {
+    "api": "Canvas.createImageData",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Canvas.createImageData.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "Canvas.createPath2D": {
+    "api": "Canvas.createPath2D",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Canvas.createPath2D.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "Canvas.getContext": {
+    "api": "Canvas.getContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Canvas.getContext.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "Canvas.requestAnimationFrame": {
+    "api": "Canvas.requestAnimationFrame",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Canvas.requestAnimationFrame.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "Canvas.toDataURL": {
+    "api": "Canvas.toDataURL",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Canvas.toDataURL.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "CanvasContext": {
+    "api": "CanvasContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "CanvasContext.arcTo": {
+    "api": "CanvasContext.arcTo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.arcTo.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "CanvasContext.clip": {
+    "api": "CanvasContext.clip",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.clip.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "CanvasContext.createPattern": {
+    "api": "CanvasContext.createPattern",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.createPattern.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "CanvasContext.measureText": {
+    "api": "CanvasContext.measureText",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.measureText.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "CanvasContext.setFillStyle": {
+    "api": "CanvasContext.setFillStyle",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setFillStyle.html",
+    "text": "从基础库 1.9.90 开始，本接口停止维护，请使用 CanvasContext.fillStyle 代替",
+    "version": "1.9.90"
+  },
+  "CanvasContext.setFontSize": {
+    "api": "CanvasContext.setFontSize",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setFontSize.html",
+    "text": "从基础库 1.9.90 开始，本接口停止维护，请使用 CanvasContext.font 代替",
+    "version": "1.9.90"
+  },
+  "CanvasContext.setGlobalAlpha": {
+    "api": "CanvasContext.setGlobalAlpha",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setGlobalAlpha.html",
+    "text": "从基础库 1.9.90 开始，本接口停止维护，请使用 CanvasContext.globalAlpha 代替",
+    "version": "1.9.90"
+  },
+  "CanvasContext.setLineCap": {
+    "api": "CanvasContext.setLineCap",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setLineCap.html",
+    "text": "从基础库 1.9.90 开始，本接口停止维护，请使用 CanvasContext.lineCap 代替",
+    "version": "1.9.90"
+  },
+  "CanvasContext.setLineDash": {
+    "api": "CanvasContext.setLineDash",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setLineDash.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "CanvasContext.setLineJoin": {
+    "api": "CanvasContext.setLineJoin",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setLineJoin.html",
+    "text": "从基础库 1.9.90 开始，本接口停止维护，请使用 CanvasContext.lineJoin 代替",
+    "version": "1.9.90"
+  },
+  "CanvasContext.setLineWidth": {
+    "api": "CanvasContext.setLineWidth",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setLineWidth.html",
+    "text": "从基础库 1.9.90 开始，本接口停止维护，请使用 CanvasContext.lineWidth 代替",
+    "version": "1.9.90"
+  },
+  "CanvasContext.setMiterLimit": {
+    "api": "CanvasContext.setMiterLimit",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setMiterLimit.html",
+    "text": "从基础库 1.9.90 开始，本接口停止维护，请使用 CanvasContext.miterLimit 代替",
+    "version": "1.9.90"
+  },
+  "CanvasContext.setShadow": {
+    "api": "CanvasContext.setShadow",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setShadow.html",
+    "text": "从基础库 1.9.90 开始，本接口停止维护，请使用 CanvasContext.shadowOffsetX|CanvasContext.shadowOffsetY|CanvasContext.shadowColor|CanvasContext.shadowBlur 代替",
+    "version": "1.9.90"
+  },
+  "CanvasContext.setStrokeStyle": {
+    "api": "CanvasContext.setStrokeStyle",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setStrokeStyle.html",
+    "text": "从基础库 1.9.90 开始，本接口停止维护，请使用 CanvasContext.strokeStyle 代替",
+    "version": "1.9.90"
+  },
+  "CanvasContext.setTextAlign": {
+    "api": "CanvasContext.setTextAlign",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setTextAlign.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "CanvasContext.setTextBaseline": {
+    "api": "CanvasContext.setTextBaseline",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setTextBaseline.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "CanvasContext.setTransform": {
+    "api": "CanvasContext.setTransform",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.setTransform.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "CanvasContext.strokeText": {
+    "api": "CanvasContext.strokeText",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.strokeText.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "CanvasContext.transform": {
+    "api": "CanvasContext.transform",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/CanvasContext.transform.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "Image": {
+    "api": "Image",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Image.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "ImageData": {
+    "api": "ImageData",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/ImageData.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "OffscreenCanvas": {
+    "api": "OffscreenCanvas",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/OffscreenCanvas.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "OffscreenCanvas.getContext": {
+    "api": "OffscreenCanvas.getContext",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/OffscreenCanvas.getContext.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "Path2D": {
+    "api": "Path2D",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/canvas/Path2D.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.saveFileToDisk": {
+    "api": "wx.saveFileToDisk",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.saveFileToDisk.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.openDocument": {
+    "api": "wx.openDocument",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.openDocument.html",
+    "text": "本接口从基础库版本 2.15.0 起支持在小程序插件中使用",
+    "pluginVersion": "2.15.0"
+  },
+  "wx.getFileSystemManager": {
+    "api": "wx.getFileSystemManager",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.getFileSystemManager.html",
+    "text": "基础库 1.9.9 开始支持，低版本需做兼容处理。",
+    "version": "1.9.9"
+  },
+  "wx.getFileInfo": {
+    "api": "wx.getFileInfo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/wx.getFileInfo.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "FileSystemManager": {
+    "api": "FileSystemManager",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.html",
+    "text": "基础库 1.9.9 开始支持，低版本需做兼容处理。",
+    "version": "1.9.9"
+  },
+  "FileSystemManager.appendFile": {
+    "api": "FileSystemManager.appendFile",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.appendFile.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "FileSystemManager.appendFileSync": {
+    "api": "FileSystemManager.appendFileSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.appendFileSync.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "FileSystemManager.mkdirSync": {
+    "api": "FileSystemManager.mkdirSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.mkdirSync.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "FileSystemManager.readFileSync": {
+    "api": "FileSystemManager.readFileSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.readFileSync.html",
+    "text": "基础库 2.10.0 开始支持，低版本需做兼容处理。",
+    "version": "2.10.0"
+  },
+  "FileSystemManager.rmdirSync": {
+    "api": "FileSystemManager.rmdirSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.rmdirSync.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "FileSystemManager.statSync": {
+    "api": "FileSystemManager.statSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/file/FileSystemManager.statSync.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.login": {
+    "api": "wx.login",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.login.html",
+    "text": "本接口从基础库版本 2.3.1 起支持在小程序插件中使用",
+    "pluginVersion": "2.3.1"
+  },
+  "wx.navigateToMiniProgram": {
+    "api": "wx.navigateToMiniProgram",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateToMiniProgram.html",
+    "text": "基础库 1.3.0 开始支持，低版本需做兼容处理。",
+    "version": "1.3.0"
+  },
+  "wx.navigateBackMiniProgram": {
+    "api": "wx.navigateBackMiniProgram",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateBackMiniProgram.html",
+    "text": "基础库 1.3.0 开始支持，低版本需做兼容处理。",
+    "version": "1.3.0"
+  },
+  "wx.getAccountInfoSync": {
+    "api": "wx.getAccountInfoSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/account-info/wx.getAccountInfoSync.html",
+    "text": "基础库 2.2.2 开始支持，低版本需做兼容处理。",
+    "version": "2.2.2"
+  },
+  "wx.getUserProfile": {
+    "api": "wx.getUserProfile",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/user-info/wx.getUserProfile.html",
+    "text": "基础库 2.10.4 开始支持，低版本需做兼容处理。",
+    "version": "2.10.4"
+  },
+  "wx.getUserInfo": {
+    "api": "wx.getUserInfo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/user-info/wx.getUserInfo.html",
+    "text": "本接口从基础库版本 2.3.1 起支持在小程序插件中使用",
+    "pluginVersion": "2.3.1"
+  },
+  "wx.reportMonitor": {
+    "api": "wx.reportMonitor",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/report/wx.reportMonitor.html",
+    "text": "基础库 2.0.1 开始支持，低版本需做兼容处理。",
+    "version": "2.0.1"
+  },
+  "wx.reportEvent": {
+    "api": "wx.reportEvent",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/report/wx.reportEvent.html",
+    "text": "基础库 2.14.4 开始支持，低版本需做兼容处理。",
+    "version": "2.14.4"
+  },
+  "wx.getExptInfoSync": {
+    "api": "wx.getExptInfoSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/report/wx.getExptInfoSync.html",
+    "text": "基础库 2.14.4 开始支持，低版本需做兼容处理。",
+    "version": "2.14.4"
+  },
+  "wx.reportAnalytics": {
+    "api": "wx.reportAnalytics",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/data-analysis/wx.reportAnalytics.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.authorizeForMiniProgram": {
+    "api": "wx.authorizeForMiniProgram",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/authorize/wx.authorizeForMiniProgram.html",
+    "text": "基础库 2.14.4 开始支持，低版本需做兼容处理。",
+    "version": "2.14.4"
+  },
+  "wx.authorize": {
+    "api": "wx.authorize",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/authorize/wx.authorize.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.openSetting": {
+    "api": "wx.openSetting",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/setting/wx.openSetting.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.getSetting": {
+    "api": "wx.getSetting",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/setting/wx.getSetting.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.chooseAddress": {
+    "api": "wx.chooseAddress",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/address/wx.chooseAddress.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.openCard": {
+    "api": "wx.openCard",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/card/wx.openCard.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.addCard": {
+    "api": "wx.addCard",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/card/wx.addCard.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.chooseInvoiceTitle": {
+    "api": "wx.chooseInvoiceTitle",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/invoice/wx.chooseInvoiceTitle.html",
+    "text": "基础库 1.5.0 开始支持，低版本需做兼容处理。",
+    "version": "1.5.0"
+  },
+  "wx.chooseInvoice": {
+    "api": "wx.chooseInvoice",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/invoice/wx.chooseInvoice.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.startSoterAuthentication": {
+    "api": "wx.startSoterAuthentication",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/soter/wx.startSoterAuthentication.html",
+    "text": "基础库 1.5.0 开始支持，低版本需做兼容处理。",
+    "version": "1.5.0"
+  },
+  "wx.checkIsSupportSoterAuthentication": {
+    "api": "wx.checkIsSupportSoterAuthentication",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/soter/wx.checkIsSupportSoterAuthentication.html",
+    "text": "基础库 1.5.0 开始支持，低版本需做兼容处理。",
+    "version": "1.5.0"
+  },
+  "wx.checkIsSoterEnrolledInDevice": {
+    "api": "wx.checkIsSoterEnrolledInDevice",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/soter/wx.checkIsSoterEnrolledInDevice.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "wx.getWeRunData": {
+    "api": "wx.getWeRunData",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/werun/wx.getWeRunData.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.reportPerformance": {
+    "api": "wx.reportPerformance",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/wx.reportPerformance.html",
+    "text": "基础库 2.9.2 开始支持，低版本需做兼容处理。",
+    "version": "2.9.2"
+  },
+  "wx.getPerformance": {
+    "api": "wx.getPerformance",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/wx.getPerformance.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "EntryList": {
+    "api": "EntryList",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/EntryList.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "EntryList.getEntries": {
+    "api": "EntryList.getEntries",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/EntryList.getEntries.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "EntryList.getEntriesByName": {
+    "api": "EntryList.getEntriesByName",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/EntryList.getEntriesByName.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "EntryList.getEntriesByType": {
+    "api": "EntryList.getEntriesByType",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/EntryList.getEntriesByType.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "Performance": {
+    "api": "Performance",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/Performance.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "Performance.createObserver": {
+    "api": "Performance.createObserver",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/Performance.createObserver.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "Performance.getEntries": {
+    "api": "Performance.getEntries",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/Performance.getEntries.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "Performance.getEntriesByName": {
+    "api": "Performance.getEntriesByName",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/Performance.getEntriesByName.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "Performance.getEntriesByType": {
+    "api": "Performance.getEntriesByType",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/Performance.getEntriesByType.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "Performance.setBufferSize": {
+    "api": "Performance.setBufferSize",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/Performance.setBufferSize.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "PerformanceObserver": {
+    "api": "PerformanceObserver",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/PerformanceObserver.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "PerformanceObserver.disconnect": {
+    "api": "PerformanceObserver.disconnect",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/PerformanceObserver.disconnect.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "PerformanceObserver.observe": {
+    "api": "PerformanceObserver.observe",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/performance/PerformanceObserver.observe.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.requestSubscribeMessage": {
+    "api": "wx.requestSubscribeMessage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/subscribe-message/wx.requestSubscribeMessage.html",
+    "text": "基础库 2.4.4 开始支持，低版本需做兼容处理。",
+    "version": "2.4.4"
+  },
+  "wx.showRedPackage": {
+    "api": "wx.showRedPackage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/redpackage/wx.showRedPackage.html",
+    "text": "基础库 2.10.0 开始支持，低版本需做兼容处理。",
+    "version": "2.10.0"
+  },
+  "wx.getGroupEnterInfo": {
+    "api": "wx.getGroupEnterInfo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/open-api/group/wx.getGroupEnterInfo.html",
+    "text": "基础库 2.10.4 开始支持，低版本需做兼容处理。",
+    "version": "2.10.4"
+  },
+  "wx.onBLEPeripheralConnectionStateChanged": {
+    "api": "wx.onBLEPeripheralConnectionStateChanged",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/wx.onBLEPeripheralConnectionStateChanged.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "wx.offBLEPeripheralConnectionStateChanged": {
+    "api": "wx.offBLEPeripheralConnectionStateChanged",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/wx.offBLEPeripheralConnectionStateChanged.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "wx.createBLEPeripheralServer": {
+    "api": "wx.createBLEPeripheralServer",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/wx.createBLEPeripheralServer.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "BLEPeripheralServer": {
+    "api": "BLEPeripheralServer",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "BLEPeripheralServer.addService": {
+    "api": "BLEPeripheralServer.addService",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.addService.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "BLEPeripheralServer.close": {
+    "api": "BLEPeripheralServer.close",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.close.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "BLEPeripheralServer.offCharacteristicReadRequest": {
+    "api": "BLEPeripheralServer.offCharacteristicReadRequest",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.offCharacteristicReadRequest.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "BLEPeripheralServer.offCharacteristicSubscribed": {
+    "api": "BLEPeripheralServer.offCharacteristicSubscribed",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.offCharacteristicSubscribed.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "BLEPeripheralServer.offCharacteristicUnsubscribed": {
+    "api": "BLEPeripheralServer.offCharacteristicUnsubscribed",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.offCharacteristicUnsubscribed.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "BLEPeripheralServer.offCharacteristicWriteRequest": {
+    "api": "BLEPeripheralServer.offCharacteristicWriteRequest",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.offCharacteristicWriteRequest.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "BLEPeripheralServer.onCharacteristicReadRequest": {
+    "api": "BLEPeripheralServer.onCharacteristicReadRequest",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.onCharacteristicReadRequest.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "BLEPeripheralServer.onCharacteristicSubscribed": {
+    "api": "BLEPeripheralServer.onCharacteristicSubscribed",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.onCharacteristicSubscribed.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "BLEPeripheralServer.onCharacteristicUnsubscribed": {
+    "api": "BLEPeripheralServer.onCharacteristicUnsubscribed",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.onCharacteristicUnsubscribed.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "BLEPeripheralServer.onCharacteristicWriteRequest": {
+    "api": "BLEPeripheralServer.onCharacteristicWriteRequest",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.onCharacteristicWriteRequest.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "BLEPeripheralServer.removeService": {
+    "api": "BLEPeripheralServer.removeService",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.removeService.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "BLEPeripheralServer.startAdvertising": {
+    "api": "BLEPeripheralServer.startAdvertising",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.startAdvertising.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "BLEPeripheralServer.stopAdvertising": {
+    "api": "BLEPeripheralServer.stopAdvertising",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.stopAdvertising.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "BLEPeripheralServer.writeCharacteristicValue": {
+    "api": "BLEPeripheralServer.writeCharacteristicValue",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-peripheral/BLEPeripheralServer.writeCharacteristicValue.html",
+    "text": "基础库 2.10.3 开始支持，低版本需做兼容处理。",
+    "version": "2.10.3"
+  },
+  "wx.stopBeaconDiscovery": {
+    "api": "wx.stopBeaconDiscovery",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.stopBeaconDiscovery.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.startBeaconDiscovery": {
+    "api": "wx.startBeaconDiscovery",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.startBeaconDiscovery.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.onBeaconUpdate": {
+    "api": "wx.onBeaconUpdate",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.onBeaconUpdate.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.onBeaconServiceChange": {
+    "api": "wx.onBeaconServiceChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.onBeaconServiceChange.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.offBeaconUpdate": {
+    "api": "wx.offBeaconUpdate",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.offBeaconUpdate.html",
+    "text": "基础库 2.8.1 开始支持，低版本需做兼容处理。",
+    "version": "2.8.1"
+  },
+  "wx.offBeaconServiceChange": {
+    "api": "wx.offBeaconServiceChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.offBeaconServiceChange.html",
+    "text": "基础库 2.8.1 开始支持，低版本需做兼容处理。",
+    "version": "2.8.1"
+  },
+  "wx.getBeacons": {
+    "api": "wx.getBeacons",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/ibeacon/wx.getBeacons.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.stopHCE": {
+    "api": "wx.stopHCE",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.stopHCE.html",
+    "text": "基础库 1.7.0 开始支持，低版本需做兼容处理。",
+    "version": "1.7.0"
+  },
+  "wx.startHCE": {
+    "api": "wx.startHCE",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.startHCE.html",
+    "text": "基础库 1.7.0 开始支持，低版本需做兼容处理。",
+    "version": "1.7.0"
+  },
+  "wx.sendHCEMessage": {
+    "api": "wx.sendHCEMessage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.sendHCEMessage.html",
+    "text": "基础库 1.7.0 开始支持，低版本需做兼容处理。",
+    "version": "1.7.0"
+  },
+  "wx.onHCEMessage": {
+    "api": "wx.onHCEMessage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.onHCEMessage.html",
+    "text": "基础库 1.7.0 开始支持，低版本需做兼容处理。",
+    "version": "1.7.0"
+  },
+  "wx.offHCEMessage": {
+    "api": "wx.offHCEMessage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.offHCEMessage.html",
+    "text": "基础库 2.8.1 开始支持，低版本需做兼容处理。",
+    "version": "2.8.1"
+  },
+  "wx.getNFCAdapter": {
+    "api": "wx.getNFCAdapter",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.getNFCAdapter.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "wx.getHCEState": {
+    "api": "wx.getHCEState",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/wx.getHCEState.html",
+    "text": "基础库 1.7.0 开始支持，低版本需做兼容处理。",
+    "version": "1.7.0"
+  },
+  "IsoDep": {
+    "api": "IsoDep",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/IsoDep.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "IsoDep.close": {
+    "api": "IsoDep.close",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/IsoDep.close.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "IsoDep.connect": {
+    "api": "IsoDep.connect",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/IsoDep.connect.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "IsoDep.getHistoricalBytes": {
+    "api": "IsoDep.getHistoricalBytes",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/IsoDep.getHistoricalBytes.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "IsoDep.getMaxTransceiveLength": {
+    "api": "IsoDep.getMaxTransceiveLength",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/IsoDep.getMaxTransceiveLength.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "IsoDep.isConnected": {
+    "api": "IsoDep.isConnected",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/IsoDep.isConnected.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "IsoDep.setTimeout": {
+    "api": "IsoDep.setTimeout",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/IsoDep.setTimeout.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "IsoDep.transceive": {
+    "api": "IsoDep.transceive",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/IsoDep.transceive.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareClassic": {
+    "api": "MifareClassic",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareClassic.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareClassic.close": {
+    "api": "MifareClassic.close",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareClassic.close.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareClassic.connect": {
+    "api": "MifareClassic.connect",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareClassic.connect.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareClassic.getMaxTransceiveLength": {
+    "api": "MifareClassic.getMaxTransceiveLength",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareClassic.getMaxTransceiveLength.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareClassic.isConnected": {
+    "api": "MifareClassic.isConnected",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareClassic.isConnected.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareClassic.setTimeout": {
+    "api": "MifareClassic.setTimeout",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareClassic.setTimeout.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareClassic.transceive": {
+    "api": "MifareClassic.transceive",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareClassic.transceive.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareUltralight": {
+    "api": "MifareUltralight",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareUltralight.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareUltralight.close": {
+    "api": "MifareUltralight.close",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareUltralight.close.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareUltralight.connect": {
+    "api": "MifareUltralight.connect",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareUltralight.connect.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareUltralight.getMaxTransceiveLength": {
+    "api": "MifareUltralight.getMaxTransceiveLength",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareUltralight.getMaxTransceiveLength.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareUltralight.isConnected": {
+    "api": "MifareUltralight.isConnected",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareUltralight.isConnected.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareUltralight.setTimeout": {
+    "api": "MifareUltralight.setTimeout",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareUltralight.setTimeout.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "MifareUltralight.transceive": {
+    "api": "MifareUltralight.transceive",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/MifareUltralight.transceive.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "Ndef": {
+    "api": "Ndef",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/Ndef.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "Ndef.close": {
+    "api": "Ndef.close",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/Ndef.close.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "Ndef.connect": {
+    "api": "Ndef.connect",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/Ndef.connect.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "Ndef.isConnected": {
+    "api": "Ndef.isConnected",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/Ndef.isConnected.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "Ndef.offNdefMessage": {
+    "api": "Ndef.offNdefMessage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/Ndef.offNdefMessage.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "Ndef.onNdefMessage": {
+    "api": "Ndef.onNdefMessage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/Ndef.onNdefMessage.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "Ndef.setTimeout": {
+    "api": "Ndef.setTimeout",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/Ndef.setTimeout.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "Ndef.writeNdefMessage": {
+    "api": "Ndef.writeNdefMessage",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/Ndef.writeNdefMessage.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcA": {
+    "api": "NfcA",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcA.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcA.close": {
+    "api": "NfcA.close",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcA.close.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcA.connect": {
+    "api": "NfcA.connect",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcA.connect.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcA.getAtqa": {
+    "api": "NfcA.getAtqa",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcA.getAtqa.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcA.getMaxTransceiveLength": {
+    "api": "NfcA.getMaxTransceiveLength",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcA.getMaxTransceiveLength.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcA.getSak": {
+    "api": "NfcA.getSak",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcA.getSak.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcA.isConnected": {
+    "api": "NfcA.isConnected",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcA.isConnected.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcA.setTimeout": {
+    "api": "NfcA.setTimeout",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcA.setTimeout.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcA.transceive": {
+    "api": "NfcA.transceive",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcA.transceive.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter": {
+    "api": "NFCAdapter",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.getIsoDep": {
+    "api": "NFCAdapter.getIsoDep",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.getIsoDep.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.getMifareClassic": {
+    "api": "NFCAdapter.getMifareClassic",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.getMifareClassic.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.getMifareUltralight": {
+    "api": "NFCAdapter.getMifareUltralight",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.getMifareUltralight.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.getNdef": {
+    "api": "NFCAdapter.getNdef",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.getNdef.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.getNfcA": {
+    "api": "NFCAdapter.getNfcA",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.getNfcA.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.getNfcB": {
+    "api": "NFCAdapter.getNfcB",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.getNfcB.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.getNfcF": {
+    "api": "NFCAdapter.getNfcF",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.getNfcF.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.getNfcV": {
+    "api": "NFCAdapter.getNfcV",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.getNfcV.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.offDiscovered": {
+    "api": "NFCAdapter.offDiscovered",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.offDiscovered.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.onDiscovered": {
+    "api": "NFCAdapter.onDiscovered",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.onDiscovered.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.startDiscovery": {
+    "api": "NFCAdapter.startDiscovery",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.startDiscovery.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NFCAdapter.stopDiscovery": {
+    "api": "NFCAdapter.stopDiscovery",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NFCAdapter.stopDiscovery.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcB": {
+    "api": "NfcB",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcB.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcB.close": {
+    "api": "NfcB.close",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcB.close.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcB.connect": {
+    "api": "NfcB.connect",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcB.connect.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcB.getMaxTransceiveLength": {
+    "api": "NfcB.getMaxTransceiveLength",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcB.getMaxTransceiveLength.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcB.isConnected": {
+    "api": "NfcB.isConnected",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcB.isConnected.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcB.setTimeout": {
+    "api": "NfcB.setTimeout",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcB.setTimeout.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcB.transceive": {
+    "api": "NfcB.transceive",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcB.transceive.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcF": {
+    "api": "NfcF",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcF.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcF.close": {
+    "api": "NfcF.close",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcF.close.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcF.connect": {
+    "api": "NfcF.connect",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcF.connect.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcF.getMaxTransceiveLength": {
+    "api": "NfcF.getMaxTransceiveLength",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcF.getMaxTransceiveLength.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcF.isConnected": {
+    "api": "NfcF.isConnected",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcF.isConnected.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcF.setTimeout": {
+    "api": "NfcF.setTimeout",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcF.setTimeout.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcF.transceive": {
+    "api": "NfcF.transceive",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcF.transceive.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcV": {
+    "api": "NfcV",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcV.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcV.close": {
+    "api": "NfcV.close",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcV.close.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcV.connect": {
+    "api": "NfcV.connect",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcV.connect.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcV.getMaxTransceiveLength": {
+    "api": "NfcV.getMaxTransceiveLength",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcV.getMaxTransceiveLength.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcV.isConnected": {
+    "api": "NfcV.isConnected",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcV.isConnected.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcV.setTimeout": {
+    "api": "NfcV.setTimeout",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcV.setTimeout.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "NfcV.transceive": {
+    "api": "NfcV.transceive",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/nfc/NfcV.transceive.html",
+    "text": "基础库 2.11.2 开始支持，低版本需做兼容处理。",
+    "version": "2.11.2"
+  },
+  "wx.stopWifi": {
+    "api": "wx.stopWifi",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.stopWifi.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "wx.startWifi": {
+    "api": "wx.startWifi",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.startWifi.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "wx.setWifiList": {
+    "api": "wx.setWifiList",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.setWifiList.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "wx.onWifiConnected": {
+    "api": "wx.onWifiConnected",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.onWifiConnected.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "wx.onGetWifiList": {
+    "api": "wx.onGetWifiList",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.onGetWifiList.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "wx.offWifiConnected": {
+    "api": "wx.offWifiConnected",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.offWifiConnected.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "wx.offGetWifiList": {
+    "api": "wx.offGetWifiList",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.offGetWifiList.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "wx.getWifiList": {
+    "api": "wx.getWifiList",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.getWifiList.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "wx.getConnectedWifi": {
+    "api": "wx.getConnectedWifi",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.getConnectedWifi.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "wx.connectWifi": {
+    "api": "wx.connectWifi",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/wx.connectWifi.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "WifiInfo": {
+    "api": "WifiInfo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/wifi/WifiInfo.html",
+    "text": "基础库 2.12.0 开始支持，低版本需做兼容处理。",
+    "version": "2.12.0"
+  },
+  "wx.setBLEMTU": {
+    "api": "wx.setBLEMTU",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.setBLEMTU.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.readBLECharacteristicValue": {
+    "api": "wx.readBLECharacteristicValue",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.readBLECharacteristicValue.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.onBLEConnectionStateChange": {
+    "api": "wx.onBLEConnectionStateChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.onBLEConnectionStateChange.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.onBLECharacteristicValueChange": {
+    "api": "wx.onBLECharacteristicValueChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.onBLECharacteristicValueChange.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.offBLEConnectionStateChange": {
+    "api": "wx.offBLEConnectionStateChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.offBLEConnectionStateChange.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "wx.offBLECharacteristicValueChange": {
+    "api": "wx.offBLECharacteristicValueChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.offBLECharacteristicValueChange.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "wx.notifyBLECharacteristicValueChange": {
+    "api": "wx.notifyBLECharacteristicValueChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.notifyBLECharacteristicValueChange.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.makeBluetoothPair": {
+    "api": "wx.makeBluetoothPair",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.makeBluetoothPair.html",
+    "text": "基础库 2.12.0 开始支持，低版本需做兼容处理。",
+    "version": "2.12.0"
+  },
+  "wx.getBLEDeviceServices": {
+    "api": "wx.getBLEDeviceServices",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.getBLEDeviceServices.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.getBLEDeviceRSSI": {
+    "api": "wx.getBLEDeviceRSSI",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.getBLEDeviceRSSI.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "wx.getBLEDeviceCharacteristics": {
+    "api": "wx.getBLEDeviceCharacteristics",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.getBLEDeviceCharacteristics.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.createBLEConnection": {
+    "api": "wx.createBLEConnection",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.createBLEConnection.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.closeBLEConnection": {
+    "api": "wx.closeBLEConnection",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.closeBLEConnection.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.writeBLECharacteristicValue": {
+    "api": "wx.writeBLECharacteristicValue",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth-ble/wx.writeBLECharacteristicValue.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.addPhoneRepeatCalendar": {
+    "api": "wx.addPhoneRepeatCalendar",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/calendar/wx.addPhoneRepeatCalendar.html",
+    "text": "基础库 2.15.0 开始支持，低版本需做兼容处理。",
+    "version": "2.15.0"
+  },
+  "wx.addPhoneCalendar": {
+    "api": "wx.addPhoneCalendar",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/calendar/wx.addPhoneCalendar.html",
+    "text": "基础库 2.15.0 开始支持，低版本需做兼容处理。",
+    "version": "2.15.0"
+  },
+  "wx.addPhoneContact": {
+    "api": "wx.addPhoneContact",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/contact/wx.addPhoneContact.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.checkIsOpenAccessibility": {
+    "api": "wx.checkIsOpenAccessibility",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/accessibility/wx.checkIsOpenAccessibility.html",
+    "text": "基础库 2.13.0 开始支持，低版本需做兼容处理。",
+    "version": "2.13.0"
+  },
+  "wx.stopBluetoothDevicesDiscovery": {
+    "api": "wx.stopBluetoothDevicesDiscovery",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.stopBluetoothDevicesDiscovery.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.startBluetoothDevicesDiscovery": {
+    "api": "wx.startBluetoothDevicesDiscovery",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.startBluetoothDevicesDiscovery.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.openBluetoothAdapter": {
+    "api": "wx.openBluetoothAdapter",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.openBluetoothAdapter.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.onBluetoothDeviceFound": {
+    "api": "wx.onBluetoothDeviceFound",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.onBluetoothDeviceFound.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.onBluetoothAdapterStateChange": {
+    "api": "wx.onBluetoothAdapterStateChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.onBluetoothAdapterStateChange.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.offBluetoothDeviceFound": {
+    "api": "wx.offBluetoothDeviceFound",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.offBluetoothDeviceFound.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "wx.offBluetoothAdapterStateChange": {
+    "api": "wx.offBluetoothAdapterStateChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.offBluetoothAdapterStateChange.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "wx.getConnectedBluetoothDevices": {
+    "api": "wx.getConnectedBluetoothDevices",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.getConnectedBluetoothDevices.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.getBluetoothDevices": {
+    "api": "wx.getBluetoothDevices",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.getBluetoothDevices.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.getBluetoothAdapterState": {
+    "api": "wx.getBluetoothAdapterState",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.getBluetoothAdapterState.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.closeBluetoothAdapter": {
+    "api": "wx.closeBluetoothAdapter",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/bluetooth/wx.closeBluetoothAdapter.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.getBatteryInfoSync": {
+    "api": "wx.getBatteryInfoSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/battery/wx.getBatteryInfoSync.html",
+    "text": "本接口从基础库版本 2.15.0 起支持在小程序插件中使用",
+    "pluginVersion": "2.15.0"
+  },
+  "wx.getBatteryInfo": {
+    "api": "wx.getBatteryInfo",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/battery/wx.getBatteryInfo.html",
+    "text": "本接口从基础库版本 2.15.0 起支持在小程序插件中使用",
+    "pluginVersion": "2.15.0"
+  },
+  "wx.setClipboardData": {
+    "api": "wx.setClipboardData",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/clipboard/wx.setClipboardData.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.getClipboardData": {
+    "api": "wx.getClipboardData",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/clipboard/wx.getClipboardData.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.onNetworkStatusChange": {
+    "api": "wx.onNetworkStatusChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/network/wx.onNetworkStatusChange.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.offNetworkStatusChange": {
+    "api": "wx.offNetworkStatusChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/network/wx.offNetworkStatusChange.html",
+    "text": "基础库 2.9.3 开始支持，低版本需做兼容处理。",
+    "version": "2.9.3"
+  },
+  "wx.getNetworkType": {
+    "api": "wx.getNetworkType",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/network/wx.getNetworkType.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.getRandomValues": {
+    "api": "wx.getRandomValues",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/crypto/wx.getRandomValues.html",
+    "text": "基础库 2.15.0 开始支持，低版本需做兼容处理。",
+    "version": "2.15.0"
+  },
+  "wx.setScreenBrightness": {
+    "api": "wx.setScreenBrightness",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/screen/wx.setScreenBrightness.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.setKeepScreenOn": {
+    "api": "wx.setKeepScreenOn",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/screen/wx.setKeepScreenOn.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "wx.onUserCaptureScreen": {
+    "api": "wx.onUserCaptureScreen",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/screen/wx.onUserCaptureScreen.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "wx.offUserCaptureScreen": {
+    "api": "wx.offUserCaptureScreen",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/screen/wx.offUserCaptureScreen.html",
+    "text": "基础库 2.9.3 开始支持，低版本需做兼容处理。",
+    "version": "2.9.3"
+  },
+  "wx.getScreenBrightness": {
+    "api": "wx.getScreenBrightness",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/screen/wx.getScreenBrightness.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.makePhoneCall": {
+    "api": "wx.makePhoneCall",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/phone/wx.makePhoneCall.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.stopAccelerometer": {
+    "api": "wx.stopAccelerometer",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/accelerometer/wx.stopAccelerometer.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.startAccelerometer": {
+    "api": "wx.startAccelerometer",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/accelerometer/wx.startAccelerometer.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.offAccelerometerChange": {
+    "api": "wx.offAccelerometerChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/accelerometer/wx.offAccelerometerChange.html",
+    "text": "基础库 2.9.3 开始支持，低版本需做兼容处理。",
+    "version": "2.9.3"
+  },
+  "wx.stopCompass": {
+    "api": "wx.stopCompass",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/compass/wx.stopCompass.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.startCompass": {
+    "api": "wx.startCompass",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/compass/wx.startCompass.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.offCompassChange": {
+    "api": "wx.offCompassChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/compass/wx.offCompassChange.html",
+    "text": "基础库 2.9.3 开始支持，低版本需做兼容处理。",
+    "version": "2.9.3"
+  },
+  "wx.stopDeviceMotionListening": {
+    "api": "wx.stopDeviceMotionListening",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/motion/wx.stopDeviceMotionListening.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.startDeviceMotionListening": {
+    "api": "wx.startDeviceMotionListening",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/motion/wx.startDeviceMotionListening.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.onDeviceMotionChange": {
+    "api": "wx.onDeviceMotionChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/motion/wx.onDeviceMotionChange.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.offDeviceMotionChange": {
+    "api": "wx.offDeviceMotionChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/motion/wx.offDeviceMotionChange.html",
+    "text": "基础库 2.9.3 开始支持，低版本需做兼容处理。",
+    "version": "2.9.3"
+  },
+  "wx.stopGyroscope": {
+    "api": "wx.stopGyroscope",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/gyroscope/wx.stopGyroscope.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.startGyroscope": {
+    "api": "wx.startGyroscope",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/gyroscope/wx.startGyroscope.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.onGyroscopeChange": {
+    "api": "wx.onGyroscopeChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/gyroscope/wx.onGyroscopeChange.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "wx.offGyroscopeChange": {
+    "api": "wx.offGyroscopeChange",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/gyroscope/wx.offGyroscopeChange.html",
+    "text": "基础库 2.9.3 开始支持，低版本需做兼容处理。",
+    "version": "2.9.3"
+  },
+  "wx.onMemoryWarning": {
+    "api": "wx.onMemoryWarning",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/performance/wx.onMemoryWarning.html",
+    "text": "基础库 2.0.2 开始支持，低版本需做兼容处理。",
+    "version": "2.0.2"
+  },
+  "wx.offMemoryWarning": {
+    "api": "wx.offMemoryWarning",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/performance/wx.offMemoryWarning.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
+  },
+  "wx.scanCode": {
+    "api": "wx.scanCode",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/scan/wx.scanCode.html",
+    "text": "本接口从基础库版本 1.9.6 起支持在小程序插件中使用",
+    "pluginVersion": "1.9.6"
+  },
+  "wx.vibrateShort": {
+    "api": "wx.vibrateShort",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/vibrate/wx.vibrateShort.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.vibrateLong": {
+    "api": "wx.vibrateLong",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/device/vibrate/wx.vibrateLong.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "wx.createWorker": {
+    "api": "wx.createWorker",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/worker/wx.createWorker.html",
+    "text": "基础库 1.9.90 开始支持，低版本需做兼容处理。",
+    "version": "1.9.90"
+  },
+  "wx.getExtConfigSync": {
+    "api": "wx.getExtConfigSync",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ext/wx.getExtConfigSync.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.getExtConfig": {
+    "api": "wx.getExtConfig",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ext/wx.getExtConfig.html",
+    "text": "基础库 1.1.0 开始支持，低版本需做兼容处理。",
+    "version": "1.1.0"
+  },
+  "wx.createSelectorQuery": {
+    "api": "wx.createSelectorQuery",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/wx.createSelectorQuery.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "wx.createIntersectionObserver": {
+    "api": "wx.createIntersectionObserver",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/wx.createIntersectionObserver.html",
+    "text": "基础库 1.9.3 开始支持，低版本需做兼容处理。",
+    "version": "1.9.3"
+  },
+  "NodesRef.context": {
+    "api": "NodesRef.context",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/NodesRef.context.html",
+    "text": "基础库 2.4.2 开始支持，低版本需做兼容处理。",
+    "version": "2.4.2"
+  },
+  "NodesRef.node": {
+    "api": "NodesRef.node",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/NodesRef.node.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "SelectorQuery.in": {
+    "api": "SelectorQuery.in",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/wxml/SelectorQuery.in.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "wx.createRewardedVideoAd": {
+    "api": "wx.createRewardedVideoAd",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ad/wx.createRewardedVideoAd.html",
+    "text": "基础库 2.0.4 开始支持，低版本需做兼容处理。",
+    "version": "2.0.4"
+  },
+  "wx.createInterstitialAd": {
+    "api": "wx.createInterstitialAd",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ad/wx.createInterstitialAd.html",
+    "text": "基础库 2.6.0 开始支持，低版本需做兼容处理。",
+    "version": "2.6.0"
+  },
+  "InterstitialAd.destroy": {
+    "api": "InterstitialAd.destroy",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ad/InterstitialAd.destroy.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  },
+  "InterstitialAd.load": {
+    "api": "InterstitialAd.load",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ad/InterstitialAd.load.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  },
+  "RewardedVideoAd.destroy": {
+    "api": "RewardedVideoAd.destroy",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/api/ad/RewardedVideoAd.destroy.html",
+    "text": "基础库 2.8.0 开始支持，低版本需做兼容处理。",
+    "version": "2.8.0"
+  }
+}

@@ -1,16 +1,21 @@
-const { defaultTypes, getInfo } = require('./util')
+const config = require('../config/wx.api.json')
 
-module.exports = function (name) {
-  const results = []
-  defaultTypes.forEach(type => {
-    const o = getInfo(type, name)
-    if (o) {
-      results.push({
-        name, type,
-        '最低基础库版本': o.version,
-        '在线文档': o.href
-      })
+module.exports = function (name, moreNames) {
+  const target = Object.create(config)
+  Object.keys(config).forEach(name => {
+    const lowerName = name.toLowerCase();
+    if (!config[lowerName]) target[lowerName] = config[name]
+  })
+  ;[].concat(name, moreNames).filter(Boolean).forEach(name => {
+    name = name.toLowerCase();
+    if (!target[name]) name = `wx.${name}`
+    if (target[name]) {
+      const o = target[name]
+      console.log(`Name\t\t${o.api}`)
+      console.log(`Version\t\t${o.version || 0}`)
+      console.log(`Plugin Version\t${o.pluginVersion || 'unknown'}`)
+      console.log(`Location\t${o.href}`)
+      console.log(`Description\t${o.text}\n`)
     }
   })
-  console.table(results)
 }

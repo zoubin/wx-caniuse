@@ -1,39 +1,20 @@
-const { createCanIUseInterface, getVersion } = require('../')()
-const { spawn } = require('child_process')
-const readline = require('readline')
+const config = require('../config/wx.api.json')
+const compare = require('../lib/compare')
 
-module.exports = function ({ targetVersion, args }) {
-  const caniuse = createCanIUseInterface(targetVersion)
-  // git grep -nowE "wx\.\w+"
-
-  const params = [ 'grep', '-nowE', 'wx\\.\\w+' ]
-  if (args.length) {
-    params.push('--', ...args)
-  }
-
-  const grep = spawn('git', params)
-
-  const rl = readline.createInterface({
-    input: grep.stdout,
-    //output: process.stdout
-  })
-
-  let disallowed = 0
-  rl.on('line', line => {
-    const api = line.trim().split(':').pop()
-    if (api && caniuse(api)) return
-    disallowed++
-    console.log(line, `available after version ${getVersion(api)}`)
-  })
-  rl.on('close', () => {
-    console.log(`${disallowed} api invocations disallowed`)
-    if (disallowed) {
-      process.exit(1)
-    }
-  })
-}
-
-function createGrepPattern(disallowedComp) {
-  const pat = disallowedComp.map(s => `<${s}`)
-  return `(${pat.join('|')})[^-_0-9a-zA-Z]+`
+module.exports = function ({ ver, regex }) {
+  const names = Object.keys(config)
+    .filter(s => s.startsWith('wx.'))
+    .filter(name => {
+      const { version, pluginVerion } = config[name]
+      name = name.slice(3)
+      if (ver && compare(ver, version || '0') < 0) return false
+      if (regex) {
+        const blacklist = regex.filter(s => s.startsWith('!'))
+        if (blacklist.some(r => (new RegExp(r.slice(1))).test(name))) return false
+        const whitelist = regex.filter(s => !s.startsWith('!'))
+        return whitelist.length ? whitelist.every(r => (new RegExp(r)).test(name)) : true
+      }
+      return true
+    })
+  console.log(names.join('\n'))
 }

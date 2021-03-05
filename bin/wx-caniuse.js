@@ -5,22 +5,23 @@ const program = require('commander')
 program.version(require('../package.json').version)
 
 program
-  .command('view <api>')
+  .command('open <api>')
+  .description('在浏览器中查看 API 信息')
+  .action(require('./open'))
+
+program
+  .command('view <api> [moreApi...]')
   .alias('info')
   .description('查看指定API的详细信息')
-  .option('-t, --target-version <version>', '指定兼容版本号', '2.0.0')
   .action(require('./view'))
 
 program
-  .command('list <version>')
-  .description('列出指定版本下可用的所有API')
+  .command('list')
+  .alias('ls')
+  .option('-v, --ver <version>', '指定兼容版本号')
+  .option('-e, --regex <pattern...>', '指定API名称格式')
+  .description('列出满足条件的所有API')
   .action(require('./list'))
-
-program
-  .command('check <name> [moreNames...]')
-  .description('检查在指定版本下是否可使用某些API')
-  .option('-t, --target-version <version>', '指定兼容版本号', '2.0.0')
-  .action(require('./check'))
 
 program
   .command('tsc')
