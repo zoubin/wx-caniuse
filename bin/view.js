@@ -1,6 +1,5 @@
-const config = require('../config/wx.api.json')
-
-module.exports = function (name, moreNames) {
+module.exports = function (name, moreNames, { component }) {
+  const config = require(component ? '../config/component.json' : '../config/wx.api.json')
   const target = Object.create(config)
   Object.keys(config).forEach(name => {
     const lowerName = name.toLowerCase();
@@ -8,7 +7,7 @@ module.exports = function (name, moreNames) {
   })
   ;[].concat(name, moreNames).filter(Boolean).forEach(name => {
     name = name.toLowerCase();
-    if (!target[name]) name = `wx.${name}`
+    if (!component && !target[name]) name = `wx.${name}`
     if (target[name]) {
       const o = target[name]
       console.log(`Name\t\t${o.name}`)

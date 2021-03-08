@@ -6,12 +6,14 @@ program.version(require('../package.json').version)
 
 program
   .command('open <api>')
+  .option('-C, --component', '查找组件')
   .description('在浏览器中查看 API 信息')
   .action(require('./open'))
 
 program
   .command('view <api> [moreApi...]')
   .alias('info')
+  .option('-C, --component', '查找组件')
   .description('查看指定API的详细信息')
   .action(require('./view'))
 
@@ -20,6 +22,8 @@ program
   .alias('ls')
   .option('-v, --ver <version>', '指定兼容版本号')
   .option('-e, --regex <pattern...>', '指定API名称格式')
+  .option('-C, --component', '查找组件')
+  .option('--no-only-wx', '只列出wx.XXX API')
   .description('列出满足条件的所有API')
   .action(require('./list'))
 

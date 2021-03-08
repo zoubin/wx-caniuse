@@ -1,20 +1,27 @@
-const config = require('../config/wx.api.json')
 const compare = require('../lib/compare')
 
-module.exports = function ({ ver, regex }) {
+function test(regex, target) {
+  return new RegExp(regex).test(target)
+}
+
+module.exports = function ({ ver, regex, onlyWx, component }) {
+  const config = require(component ? '../config/component.json' : '../config/wx.api.json')
   const names = Object.keys(config)
-    .filter(s => s.startsWith('wx.'))
     .filter(name => {
-      const { version, pluginVerion } = config[name]
-      name = name.slice(3)
-      if (ver && compare(ver, version || '0') < 0) return false
-      if (regex) {
-        const blacklist = regex.filter(s => s.startsWith('!'))
-        if (blacklist.some(r => (new RegExp(r.slice(1))).test(name))) return false
-        const whitelist = regex.filter(s => !s.startsWith('!'))
-        return whitelist.length ? whitelist.every(r => (new RegExp(r)).test(name)) : true
-      }
-      return true
+      const { version } = config[name]
+      return !ver || !version || compare(ver, version) >= 0
     })
-  console.log(names.join('\n'))
+    .filter(name => {
+      if (!regex || !regex.length) return true
+      if (!component && onlyWx) {
+        if (!name.startsWith('wx.')) return false
+        name = name.slice(3)
+      }
+      const blacklist = regex.filter(s => s.startsWith('!')).map(s => s.slice(1))
+      if (blacklist.some(r => test(r, name))) return false
+
+      const whitelist = regex.filter(s => !s.startsWith('!'))
+      return !whitelist.length || whitelist.some(r => test(r, name))
+    })
+  console.log(names.sort().join('\n'))
 }

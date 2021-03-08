@@ -13,6 +13,7 @@ wx-caniuse -h
 
 ```bash
 wx-caniuse view console.log # 查看指定API的详细信息
+wx-caniuse view -C scroll-view # 查看指定组件的详细信息
 wx-caniuse open console.log # 使用默认浏览器打开文档
 wx-caniuse list -v '2.0.0' # 列出 2.0.0 可用的所有 wx.XXX API
 wx-caniuse list -e 'Sync$' -v '2.0.0' # 列出 2.0.0 可用的所有以 Sync 结尾的 wx.XXX API
