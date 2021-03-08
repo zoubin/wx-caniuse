@@ -1,194 +1,294 @@
 {
-  "native-component": {
-    "version": "0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/native-component.html"
-  },
-  "aria-component": {
-    "version": "0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/aria-component.html"
-  },
-  "scroll-view": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/scroll-view.html"
-  },
-  "swiper": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/swiper.html"
-  },
-  "swiper-item": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/swiper-item.html"
-  },
-  "view": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/view.html"
-  },
-  "icon": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/icon.html"
-  },
-  "progress": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/progress.html"
-  },
-  "text": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/text.html"
-  },
-  "button": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/button.html"
-  },
-  "checkbox": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/checkbox.html"
-  },
-  "checkbox-group": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/checkbox-group.html"
-  },
-  "form": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/form.html"
-  },
-  "input": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/input.html"
-  },
-  "label": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/label.html"
-  },
-  "picker": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/picker.html"
-  },
-  "picker-view": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/picker-view.html"
-  },
-  "picker-view-column": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/picker-view-column.html"
-  },
-  "radio": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/radio.html"
-  },
-  "radio-group": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/radio-group.html"
-  },
-  "slider": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/slider.html"
-  },
-  "switch": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/switch.html"
-  },
-  "textarea": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/textarea.html"
-  },
-  "navigator": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html"
-  },
-  "audio": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/audio.html"
-  },
-  "image": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/image.html"
-  },
-  "video": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/video.html"
-  },
-  "map": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/map.html"
-  },
-  "canvas": {
-    "version": "1.0.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/canvas.html"
-  },
-  "movable-area": {
-    "version": "1.2.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/movable-area.html"
-  },
   "movable-view": {
-    "version": "1.2.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/movable-view.html"
+    "name": "movable-view",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/movable-view.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
   },
   "cover-image": {
-    "version": "1.4.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/cover-image.html"
+    "name": "cover-image",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/cover-image.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
   },
   "cover-view": {
-    "version": "1.4.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/cover-view.html"
-  },
-  "rich-text": {
-    "version": "1.4.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/rich-text.html"
-  },
-  "open-data": {
-    "version": "1.4.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html"
-  },
-  "camera": {
-    "version": "1.6.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/camera.html"
-  },
-  "web-view": {
-    "version": "1.6.4",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html"
-  },
-  "live-player": {
-    "version": "1.7.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/live-player.html"
-  },
-  "live-pusher": {
-    "version": "1.7.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/live-pusher.html"
-  },
-  "ad": {
-    "version": "1.9.94",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/ad.html"
-  },
-  "functional-page-navigator": {
-    "version": "2.1.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/functional-page-navigator.html"
-  },
-  "ad-custom": {
-    "version": "2.10.4",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/ad-custom.html"
-  },
-  "voip-room": {
-    "version": "2.11.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/voip-room.html"
+    "name": "cover-view",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/cover-view.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
   },
   "match-media": {
-    "version": "2.11.1",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/match-media.html"
+    "name": "match-media",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/match-media.html",
+    "text": "基础库 2.11.1 开始支持，低版本需做兼容处理。",
+    "version": "2.11.1"
   },
-  "official-account": {
-    "version": "2.3.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/official-account.html"
+  "movable-area": {
+    "name": "movable-area",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/movable-area.html",
+    "text": "基础库 1.2.0 开始支持，低版本需做兼容处理。",
+    "version": "1.2.0"
+  },
+  "scroll-view": {
+    "name": "scroll-view",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/scroll-view.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "swiper": {
+    "name": "swiper",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/swiper.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "swiper-item": {
+    "name": "swiper-item",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/swiper-item.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "view": {
+    "name": "view",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/view.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "icon": {
+    "name": "icon",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/icon.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "progress": {
+    "name": "progress",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/progress.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "rich-text": {
+    "name": "rich-text",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/rich-text.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "text": {
+    "name": "text",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/text.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "button": {
+    "name": "button",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/button.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "checkbox": {
+    "name": "checkbox",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/checkbox.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "checkbox-group": {
+    "name": "checkbox-group",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/checkbox-group.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
   },
   "editor": {
-    "version": "2.7.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/editor.html"
+    "name": "editor",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/editor.html",
+    "text": "基础库 2.7.0 开始支持，低版本需做兼容处理。",
+    "version": "2.7.0"
+  },
+  "form": {
+    "name": "form",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/form.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "input": {
+    "name": "input",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/input.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "keyboard-accessory": {
+    "name": "keyboard-accessory",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/keyboard-accessory.html",
+    "text": "基础库 2.15.0 开始支持，低版本需做兼容处理。",
+    "version": "2.15.0"
+  },
+  "label": {
+    "name": "label",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/label.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "picker": {
+    "name": "picker",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/picker.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "picker-view": {
+    "name": "picker-view",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/picker-view.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "picker-view-column": {
+    "name": "picker-view-column",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/picker-view-column.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "radio": {
+    "name": "radio",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/radio.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "radio-group": {
+    "name": "radio-group",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/radio-group.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "slider": {
+    "name": "slider",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/slider.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "switch": {
+    "name": "switch",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/switch.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "textarea": {
+    "name": "textarea",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/textarea.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "functional-page-navigator": {
+    "name": "functional-page-navigator",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/functional-page-navigator.html",
+    "text": "基础库 2.1.0 开始支持，低版本需做兼容处理。",
+    "version": "2.1.0"
+  },
+  "navigator": {
+    "name": "navigator",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "audio": {
+    "name": "audio",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/audio.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "camera": {
+    "name": "camera",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/camera.html",
+    "text": "基础库 1.6.0 开始支持，低版本需做兼容处理。",
+    "version": "1.6.0"
+  },
+  "image": {
+    "name": "image",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/image.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "live-player": {
+    "name": "live-player",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/live-player.html",
+    "text": "基础库 1.7.0 开始支持，低版本需做兼容处理。",
+    "version": "1.7.0"
+  },
+  "live-pusher": {
+    "name": "live-pusher",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/live-pusher.html",
+    "text": "基础库 1.7.0 开始支持，低版本需做兼容处理。",
+    "version": "1.7.0"
+  },
+  "video": {
+    "name": "video",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/video.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "voip-room": {
+    "name": "voip-room",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/voip-room.html",
+    "text": "基础库 2.11.0 开始支持，低版本需做兼容处理。",
+    "version": "2.11.0"
+  },
+  "map": {
+    "name": "map",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/map.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "canvas": {
+    "name": "canvas",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/canvas.html",
+    "text": "基础库 1.0.0 开始支持，低版本需做兼容处理。",
+    "version": "1.0.0"
+  },
+  "ad": {
+    "name": "ad",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/ad.html",
+    "text": "基础库 1.9.94 开始支持，低版本需做兼容处理。",
+    "version": "1.9.94"
+  },
+  "ad-custom": {
+    "name": "ad-custom",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/ad-custom.html",
+    "text": "基础库 2.10.4 开始支持，低版本需做兼容处理。",
+    "version": "2.10.4"
+  },
+  "official-account": {
+    "name": "official-account",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/official-account.html",
+    "text": "基础库 2.3.0 开始支持，低版本需做兼容处理。",
+    "version": "2.3.0"
+  },
+  "open-data": {
+    "name": "open-data",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html",
+    "text": "基础库 1.4.0 开始支持，低版本需做兼容处理。",
+    "version": "1.4.0"
+  },
+  "web-view": {
+    "name": "web-view",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html",
+    "text": "基础库 1.6.4 开始支持，低版本需做兼容处理。",
+    "version": "1.6.4"
+  },
+  "native-component": {
+    "name": "native-component",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/native-component.html",
+    "text": null
+  },
+  "aria-component": {
+    "name": "aria-component",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/aria-component.html",
+    "text": null
   },
   "navigation-bar": {
-    "version": "2.9.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/navigation-bar.html"
+    "name": "navigation-bar",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/navigation-bar.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
   },
   "page-meta": {
-    "version": "2.9.0",
-    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/page-meta.html"
+    "name": "page-meta",
+    "href": "https://developers.weixin.qq.com/miniprogram/dev/component/page-meta.html",
+    "text": "基础库 2.9.0 开始支持，低版本需做兼容处理。",
+    "version": "2.9.0"
   }
 }

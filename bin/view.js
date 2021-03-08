@@ -11,7 +11,7 @@ module.exports = function (name, moreNames) {
     if (!target[name]) name = `wx.${name}`
     if (target[name]) {
       const o = target[name]
-      console.log(`Name\t\t${o.api}`)
+      console.log(`Name\t\t${o.name}`)
       console.log(`Version\t\t${o.version || 0}`)
       console.log(`Plugin Version\t${o.pluginVersion || 'unknown'}`)
       console.log(`Location\t${o.href}`)

@@ -6,30 +6,39 @@
 // 4、将结果复制粘贴到配置文件中
 (async function main(list) {
   const results = Object.create(null)
+  const retry = []
   for (var i = 0, len = list.length; i < len; i++) {
     console.log(`${new Date().toTimeString().slice(0, 8)}: handling ${i + 1} of ${list.length}`)
+    await processLink(list[i], 1)
+  }
+  for (var i = 0, len = retry.length; i < len; i++) {
+    console.log(`${new Date().toTimeString().slice(0, 8)}: rehandling ${i + 1} of ${retry.length}`)
+    await processLink(retry[i], 0)
+  }
+  console.log(JSON.stringify(results, null, 2))
 
-    const link = list[i]
+  async function processLink(link, shouldRetry) {
     const api = link.href.slice(link.href.lastIndexOf('/') + 1, -5)
-    if (results[api]) continue
-
+    if (results[api]) return
     let success = await loadPage(link)
     if (success) {
       const blockquote = document.querySelector('blockquote')
       const info = getInfo(blockquote && blockquote.textContent, api, link.href)
-      if (info) results[api] = info
+      results[api] = info
+      if (!info.version && !info.pluginVersion) {
+        console.log(`no version info found in link ${link.href}`)
+      }
     } else {
       console.error('timeout: ', link.href)
+      if (shouldRetry) retry.push(link)
     }
   }
 
-  console.log(JSON.stringify(results, null, 2))
-
   function getInfo(text, api, href) {
-    if (!text) return null;
+    const res = { name: api, href, text }
+    if (!text) return res;
     let version = text.match(/\d{1,2}\.\d{1,2}\.\d{1,2}/g)
-    if (!version) return null;
-    const res = { api, href, text }
+    if (!version) return res;
     let hasPluginInfo = text.includes('插件')
     if (version.length === 1) {
       if (hasPluginInfo) {
